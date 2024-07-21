@@ -1,0 +1,9 @@
+## Exercício
+
+#### Montar a uma Análise Descritiva
+ - QUAL A REGIÃO COM MAIOR CRIMINALIDADE?
+ - QUAL A CIDADE COM MAIOR CRIMINALIDADE?
+ - QUAL A DP COM MAIOR CRIMINALIDADE?
+
+#### Montar a uma Análise Prescritiva
+ - COMO RESOLVER O PROBLEMA DA CRIMINALIDADE DO RIO?
