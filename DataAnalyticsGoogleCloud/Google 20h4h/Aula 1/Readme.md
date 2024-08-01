@@ -1,11 +1,11 @@
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Nome da Disciplina]
-- **Professor:** [Nome do Professor]
-- **Turma:** [Nome da Turma]
-- **Data:** [Data da Aula]
-- **Duração:** [Duração da Aula]
+- **Disciplina:** Fundamentos de Ciência de Dados - Google Cloud
+- **Professor:** Gilberto Aparecido Bernardo Junior
+- **Turma:** GR-G.CLOUD-2C24 
+- **Data:** 03/08/2024
+- **Duração da aula:** 4 horas
 
 ## Tema da Aula
 - [Título do Tema]
