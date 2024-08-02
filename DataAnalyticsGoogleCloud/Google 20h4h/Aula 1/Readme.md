@@ -8,41 +8,46 @@
 - **Duração da aula:** 4 horas
 
 ## Tema da Aula
-- [Título do Tema]
+- Introduction to Data Analytics on Google Cloud
 
 ## Objetivos da Aula
 - **Geral:** 
-  - [Objetivo geral da aula]
+  - Conhecer o ambiente Google Cloud e introduzir a análise de dados no Google Cloud
 - **Específicos:**
-  - [Objetivo específico 1]
-  - [Objetivo específico 2]
-  - [Objetivo específico 3]
+  - Criar conta na plataforma Google
+  - Criar a conta na plataforma Google Cloud
+  - Adquirir os créditos para o curso
+  - Iniciar e encerrar a trilha "Introduction to Data Analytics on Google Cloud"
 
 ## Conteúdo Programático
-- [Tópico 1]
-- [Tópico 2]
-- [Tópico 3]
+- Understand the Data Analytics Lifecycle on Google Cloud
+- Explore Data and Extract Insights by Using BigQuery
+- Make Data-driven Decisions by Using Looker
+- Course Summary
 
 ## Metodologia
 - [Descrição da metodologia a ser utilizada]
 - **Recursos Didáticos:**
-  - [Recurso 1]
-  - [Recurso 2]
-  - [Recurso 3]
+  - Site Cloud Skills Boot
+  - Site Google cloud
+  - Slides
+
 
 ## Desenvolvimento da Aula
 
-### Abertura (10 minutos)
+### Apresentações (30 minutos)
 - [Atividade inicial]
 - [Discussão introdutória]
 
-### Desenvolvimento (60 minutos)
-- [Descrição detalhada das atividades e conteúdos]
-- [Métodos de ensino (ex.: exposição, discussão, prática)]
+### Verificação das contas Google (15 minutos)
+- Criar uma conta no Google
+- Ativar a dupla autenticação
+- 
 
-### Fechamento (10 minutos)
-- [Resumo dos pontos principais]
-- [Discussão final]
+### Aquisição dos créditos
+- Abrir uma guia anônima no navegador de Internet
+- Formulário de inscrição: https://docs.google.com/forms/d/1jrnRcNC6Sp5F_4N3SrRFQgxMm37LUDNTZd9rkVX6Cls/viewform?edit_requested=true&pli=1
+- Ao abrir o site de inscrição do Cloud Skills Boot, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
 - [Tarefa de casa]
 
 ## Avaliação
