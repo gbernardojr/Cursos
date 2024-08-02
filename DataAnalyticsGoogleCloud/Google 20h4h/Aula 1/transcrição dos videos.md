@@ -1,6 +1,6 @@
-##Transcrição dos vídeos da trilha 01 - Introduction to Data Analytics on Google Cloud
+## Transcrição dos vídeos da trilha 01 - Introduction to Data Analytics on Google Cloud
 
-###Entenda o ciclo de vida da análise de dados no Google Cloud
+### Entenda o ciclo de vida da análise de dados no Google Cloud
 
 Este módulo do curso Introdução à análise de dados no Google Cloud examina o fluxo de trabalho de análise de dados do Google Cloud e descreve as fontes de dados e os métodos de armazenamento do Google Cloud.
 Capturar, gerenciar e usar dados é essencial para redefinir as experiências do cliente e criar novo valor.
@@ -488,5 +488,3 @@ Depois disso, você aprendeu sobre as diversas opções de visualização dispon
 Você também recebeu uma demonstração de como criar um gráfico no Looker Studio.
 Você também recebeu uma demonstração de como criar um gráfico no Looker Studio.
 Por fim, você comparou os benefícios e as desvantagens de usar o Looker e o Looker Studio para compartilhar dados com outras pessoas e aprendeu como compartilhar dados de ambas as plataformas.
-
-
