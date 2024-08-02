@@ -1,4 +1,3 @@
-
 ##Transcrição dos vídeos da trilha 01 - Introduction to Data Analytics on Google Cloud
 
 ###Entenda o ciclo de vida da análise de dados no Google Cloud
