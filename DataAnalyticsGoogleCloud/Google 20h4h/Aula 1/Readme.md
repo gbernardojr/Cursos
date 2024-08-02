@@ -42,7 +42,7 @@
 
 ### Aquisição dos créditos
 - Abrir uma guia anônima no navegador de Internet
-- Formulário de inscrição: [https://docs.google.com/forms/d/1jrnRcNC6Sp5F_4N3SrRFQgxMm37LUDNTZd9rkVX6Cls/viewform?edit_requested=true&pli=1](https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19)
+- Formulário de inscrição: https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19
 - Ao abrir o site de inscrição do Cloud Skills Boot, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
 
 ## Avaliação
