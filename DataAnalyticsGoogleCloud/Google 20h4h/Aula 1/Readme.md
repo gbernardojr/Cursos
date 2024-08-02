@@ -14,26 +14,22 @@
 - **Geral:** 
   - Conhecer o ambiente Google Cloud e introduzir a análise de dados no Google Cloud
 - **Específicos:**
+  - Adquirir créditos
+  - Entender os conceitos de análise de dados
+  - Conhecer o Google Cloud
+
+## Conteúdo Programático
   - Criar conta na plataforma Google
   - Criar a conta na plataforma Google Cloud
   - Adquirir os créditos para o curso
+  - Entender os conceitos de análise de dados
   - Iniciar e encerrar a trilha "Introduction to Data Analytics on Google Cloud"
-
-## Conteúdo Programático
-- Understand the Data Analytics Lifecycle on Google Cloud
-- Explore Data and Extract Insights by Using BigQuery
-- Make Data-driven Decisions by Using Looker
-- Course Summary
-
+    
 ## Metodologia
 - [Descrição da metodologia a ser utilizada]
 - **Recursos Didáticos:**
   - Site Cloud Skills Boot
-  - Site Google cloud
   - Slides
-
-
-## Desenvolvimento da Aula
 
 ### Apresentações (30 minutos)
 - [Atividade inicial]
@@ -46,18 +42,12 @@
 
 ### Aquisição dos créditos
 - Abrir uma guia anônima no navegador de Internet
-- Formulário de inscrição: [https://docs.google.com/forms/d/1jrnRcNC6Sp5F_4N3SrRFQgxMm37LUDNTZd9rkVX6Cls/viewform?edit_requested=true&pli=1](https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19)]
+- Formulário de inscrição: [https://docs.google.com/forms/d/1jrnRcNC6Sp5F_4N3SrRFQgxMm37LUDNTZd9rkVX6Cls/viewform?edit_requested=true&pli=1](https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19)
 - Ao abrir o site de inscrição do Cloud Skills Boot, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
-- [Tarefa de casa]
 
 ## Avaliação
-- [Método de avaliação]
-- [Critérios de avaliação]
-
-## Referências
-- [Referência 1]
-- [Referência 2]
-- [Referência 3]
+- Laboratórios orientados
+- Desafios
 
 ## Anotações
-- [Espaço para anotações adicionais]
+
