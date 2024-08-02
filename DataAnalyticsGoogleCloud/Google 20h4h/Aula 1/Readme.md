@@ -26,19 +26,18 @@
   - Iniciar e encerrar a trilha "Introduction to Data Analytics on Google Cloud"
     
 ## Metodologia
-- [Descrição da metodologia a ser utilizada]
+- Tecnologias Digitais - Gamificação
 - **Recursos Didáticos:**
   - Site Cloud Skills Boot
   - Slides
 
 ### Apresentações (30 minutos)
-- [Atividade inicial]
-- [Discussão introdutória]
+- Boas vindas
+- Apresentação dos alunos, instrutor e curso
 
 ### Verificação das contas Google (15 minutos)
 - Criar uma conta no Google
 - Ativar a dupla autenticação
-- 
 
 ### Aquisição dos créditos
 - Abrir uma guia anônima no navegador de Internet
