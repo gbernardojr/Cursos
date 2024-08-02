@@ -28,8 +28,10 @@
 ## Metodologia
 - Tecnologias Digitais - Gamificação
 - **Recursos Didáticos:**
-  - Site Cloud Skills Boot
+  - Site Cloud Skills Boost
   - Slides
+
+## Desenvolvimento
 
 ### Apresentações (30 minutos)
 - Boas vindas
@@ -42,7 +44,16 @@
 ### Aquisição dos créditos
 - Abrir uma guia anônima no navegador de Internet
 - Formulário de inscrição: https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19
-- Ao abrir o site de inscrição do Cloud Skills Boot, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
+- Ao abrir o site de inscrição do Cloud Skills Boost, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
+
+### O que é Ciências de Dados
+- Apresentação Fundamentos de Ciências de Dados
+- Página Developer cheat sheet: https://googlecloudcheatsheet.withgoogle.com/
+
+### Trilha Introduction to Data Analytics on Google Cloud
+- Understand the Data Analytics Lifecycle on Google Cloud
+- Explore Data and Extract Insights by Using BigQuery
+- Make Data-driven Decisions by Using Looker  
 
 ## Avaliação
 - Laboratórios orientados
