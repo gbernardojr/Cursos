@@ -17,7 +17,9 @@
   - Conhecer a história do Python e alguns dos programadores(as) mais influentes.
   - Aprender a baixar e instalar o Python no computador.
   - Diferenciar entre interpretadores e compiladores.
-  - O que são e quais são IDE's
+  - O que são e quais são IDE's.
+  - Criar conta no GitHub.
+  - Criar conta no MeuScrum.
   - Executar os primeiros comandos em Python.
 
 ## Conteúdo Programático
@@ -78,8 +80,8 @@
 ## Desenvolvimento da Aula
 
 ### Abertura (10 minutos)
-- [Atividade inicial]
-- [Discussão introdutória]
+- Boas-Vindas pela coordenação
+- Apresentação dos alunos
 
 ### Desenvolvimento (60 minutos)
   
@@ -118,16 +120,12 @@
 ### Fechamento (10 minutos)
 - [Resumo dos pontos principais]
 - [Discussão final]
-- [Tarefa de casa]
 
 ## Avaliação
-- [Método de avaliação]
-- [Critérios de avaliação]
-
-## Referências
-- [Referência 1]
-- [Referência 2]
-- [Referência 3]
+- Participação: Engajamento dos alunos nas discussões e atividades interativas (10%).
+- Atividades Práticas: Execução correta dos primeiros comandos em Python e configuração do ambiente de desenvolvimento (30%).
+- Questionário: Avaliação escrita sobre os conceitos teóricos abordados (30%).
+- Trabalho de Pesquisa: Curta pesquisa sobre um programador(a) famoso(a) e suas contribuições (30%).
 
 ## Anotações
 - [Espaço para anotações adicionais]
