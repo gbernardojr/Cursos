@@ -23,7 +23,6 @@
   - Criar a conta na plataforma Google Cloud
   - Adquirir os créditos para o curso
   - Entender os conceitos de análise de dados
-  - Iniciar e encerrar a trilha "Introduction to Data Analytics on Google Cloud"
     
 ## Metodologia
 - Tecnologias Digitais - Gamificação
@@ -49,11 +48,6 @@
 ### O que é Ciências de Dados
 - Apresentação Fundamentos de Ciências de Dados
 - Página Developer cheat sheet: https://googlecloudcheatsheet.withgoogle.com/
-
-### Trilha Introduction to Data Analytics on Google Cloud
-- Understand the Data Analytics Lifecycle on Google Cloud
-- Explore Data and Extract Insights by Using BigQuery
-- Make Data-driven Decisions by Using Looker  
 
 ## Avaliação
 - Laboratórios orientados
