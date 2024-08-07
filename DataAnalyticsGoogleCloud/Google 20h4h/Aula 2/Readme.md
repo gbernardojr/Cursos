@@ -10,11 +10,11 @@
 
 ## Objetivos da Aula
 - **Geral:** 
-  - [Objetivo geral da aula]
+  - Explorar o fluxo de uma análise de dados no Google Cloud
 - **Específicos:**
-  - [Objetivo específico 1]
-  - [Objetivo específico 2]
-  - [Objetivo específico 3]
+  - Entender o ciclo de vide de uma análise de dados no Google Cloud
+  - Explorar dados e extrair insights com BigQuery
+  - Tomar decisões data-driven com Google Looker
 
 ## Conteúdo Programático
 - Understand the Data Analytics Lifecycle on Google Cloud
@@ -22,11 +22,10 @@
 - Make Data-driven Decisions by Using Looker
 
 ## Metodologia
-- [Descrição da metodologia a ser utilizada]
+- Exercícios Dirigidos
 - **Recursos Didáticos:**
-  - [Recurso 1]
-  - [Recurso 2]
-  - [Recurso 3]
+  - Vídeos
+  - Laboratórios
 
 ## Desenvolvimento da Aula
 
@@ -34,7 +33,7 @@
 - Revisão da aula anterior
 - Introdução à aula do dia
 
-### Desenvolvimento (60 minutos)
+### Desenvolvimento 
 - Acessar o laboratório https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR&authuser=0
 
 ### Fechamento (10 minutos)
@@ -42,13 +41,11 @@
 - [Discussão final]
 
 ## Avaliação
-- [Método de avaliação]
-- [Critérios de avaliação]
+- Laboratórios dirigidos
+- Quizz
 
 ## Referências
-- [Referência 1]
-- [Referência 2]
-- [Referência 3]
+
 
 ## Anotações
-- [Espaço para anotações adicionais]
+
