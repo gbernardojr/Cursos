@@ -1,14 +1,12 @@
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Nome da Disciplina]
-- **Professor:** [Nome do Professor]
-- **Turma:** [Nome da Turma]
-- **Data:** [Data da Aula]
-- **Duração:** [Duração da Aula]
+- **Disciplina:** Introdução à Ciências de Dados com Google Cloud
+- **Professor:** Gilberto Aparecido Bernardo Junior
+- **Duração:** 4 horas
 
 ## Tema da Aula
-- [Título do Tema]
+- Introduction to Data Analytics on Google Cloud
 
 ## Objetivos da Aula
 - **Geral:** 
@@ -19,9 +17,9 @@
   - [Objetivo específico 3]
 
 ## Conteúdo Programático
-- [Tópico 1]
-- [Tópico 2]
-- [Tópico 3]
+- Understand the Data Analytics Lifecycle on Google Cloud
+- Explore Data and Extract Insights by Using BigQuery
+- Make Data-driven Decisions by Using Looker
 
 ## Metodologia
 - [Descrição da metodologia a ser utilizada]
@@ -33,17 +31,15 @@
 ## Desenvolvimento da Aula
 
 ### Abertura (10 minutos)
-- [Atividade inicial]
-- [Discussão introdutória]
+- Revisão da aula anterior
+- Introdução à aula do dia
 
 ### Desenvolvimento (60 minutos)
-- [Descrição detalhada das atividades e conteúdos]
-- [Métodos de ensino (ex.: exposição, discussão, prática)]
+- Acessar o laboratório https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR&authuser=0
 
 ### Fechamento (10 minutos)
 - [Resumo dos pontos principais]
 - [Discussão final]
-- [Tarefa de casa]
 
 ## Avaliação
 - [Método de avaliação]
