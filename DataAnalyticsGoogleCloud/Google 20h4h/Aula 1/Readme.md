@@ -13,11 +13,15 @@
 ## Objetivos da Aula
 - **Geral:** 
   - Conhecer o ambiente Google Cloud e introduzir a análise de dados no Google Cloud
+  - Explorar o fluxo de uma análise de dados no Google Cloud
 - **Específicos:**
   - Adquirir créditos
   - Entender os conceitos de análise de dados
   - Conhecer o Google Cloud
-
+  - Entender o ciclo de vida de uma análise de dados no Google Cloud
+  - Explorar dados e extrair insights com BigQuery
+  - Tomar decisões data-driven com Google Looker
+ 
 ## Conteúdo Programático
   - Criar conta na plataforma Google
   - Criar a conta na plataforma Google Cloud
