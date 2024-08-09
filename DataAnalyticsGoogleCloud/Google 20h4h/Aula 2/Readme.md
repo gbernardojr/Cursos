@@ -6,20 +6,20 @@
 - **Duração:** 4 horas
 
 ## Tema da Aula
-- Introduction to Data Analytics on Google Cloud
-
+- Derive Insights from BigQuery Data
+- 
 ## Objetivos da Aula
 - **Geral:** 
-  - Explorar o fluxo de uma análise de dados no Google Cloud
+  - 
 - **Específicos:**
-  - Entender o ciclo de vide de uma análise de dados no Google Cloud
-  - Explorar dados e extrair insights com BigQuery
-  - Tomar decisões data-driven com Google Looker
+  - 
+  - 
+  - 
 
 ## Conteúdo Programático
-- Understand the Data Analytics Lifecycle on Google Cloud
-- Explore Data and Extract Insights by Using BigQuery
-- Make Data-driven Decisions by Using Looker
+- 
+- 
+- 
 
 ## Metodologia
 - Exercícios Dirigidos
@@ -34,7 +34,7 @@
 - Introdução à aula do dia
 
 ### Desenvolvimento 
-- Acessar o laboratório https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR&authuser=0
+- Acessar o curso https://www.cloudskillsboost.google/course_templates/623
 
 ### Fechamento (10 minutos)
 - [Resumo dos pontos principais]
