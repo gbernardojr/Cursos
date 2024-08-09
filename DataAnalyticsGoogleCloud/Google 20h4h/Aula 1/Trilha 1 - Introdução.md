@@ -96,16 +96,55 @@ amente os dados e tornar as consultas eficientes em grandes conjuntos de dados d
 
 Vamos retornar brevemente à interface do usuário do BigQuery e ver outro exemplo. Aqui estamos executando uma consulta para contar o número total de viagens feitas no conjunto de dados público para viagens de bicicletas compartilhadas em São Francisco. Muitas vezes há incerteza quanto à qualidade dos dados em seu conjunto de dados, então você pode usar SQL para explorar e filtrar anomalias. Aqui, filtramos registros de clientes que não continham uma data de nascimento definindo `member_birth_year IS NOT NULL` como filtro. Também aplicamos a cláusula `GROUP BY` para agrupar os resultados pelo nome da estação inicial. A cláusula `ORDER BY` ajuda a classificar os resultados, enquanto o `LIMIT` mostra apenas os 5 principais resultados.
 
-### Laboratório BigQuery: Qwik Start – Console
-
 Além dos tempos rápidos de execução de consultas, lembre-se de que o BigQuery também gerencia o armazenamento e os metadados dos seus conjuntos de dados. Vamos discutir como o BigQuery organiza dados para facilitar a exploração e a análise. Quais são alguns motivos para estruturar suas informações em conjuntos de dados, projetos e tabelas? Esses múltiplos escopos — projeto, conjunto de dados e tabela — podem ajudar você a estruturar suas informações logicamente. Você pode usar vários conjuntos de dados para separar tabelas pertencentes a diferentes domínios analíticos e pode usar o escopo em nível de projeto para isolar conjuntos de dados uns dos outros de acordo com as necessidades do seu negócio. Você pode alinhar projetos ao faturamento e usar conjuntos de dados para controle de acesso. Você armazena dados em tabelas separadas com base em considerações de esquema lógico. Cada tabela tem um esquema. Você pode inserir o esquema manualmente por meio do console do Google Cloud ou fornecendo um arquivo JSON. Formatos de arquivo como Avro, Parquet, ORC, Firestore export ou Datastore export são autodescritivos, então o BigQuery infere automaticamente o esquema da tabela a partir dos dados de origem. 
 
 O BigQuery é chamado de **"armazenamento em colunas"**, o que significa que ele foi projetado para processar colunas, não linhas. Como o BigQuery lê apenas as colunas relevantes para executar uma consulta, ele é otimizado para leituras altas de data warehouses. Como cada coluna tem dados do mesmo tipo, o BigQuery pode compactar os dados da coluna com muito mais eficiência. Cada coluna é automaticamente compactada, criptografada e replicada para oferecer suporte à disponibilidade e durabilidade dos dados no BigQuery. O BigQuery armazena dados em um formato amplamente distribuído. O mesmo vale para o Google Cloud Storage e é o que alimenta aplicativos como Gmail, Ads e muitos outros produtos do Google. O BigQuery otimiza automaticamente o balanceamento e o particionamento desses fragmentos de dados no back-end. Como alternativa, você também pode particionar e agrupar suas tabelas com base em seus padrões de acesso para controlar custos e tornar suas consultas mais eficientes.
 
 Vamos demonstrar mais uma vez como usar SQL no BigQuery para analisar dados. Após esta demonstração, você terá experiência prática em um laboratório. A primeira coisa que faremos é adicionar alguns dados. Vamos clicar em **Adicionar dados** e selecionar **Conjuntos de dados públicos**. E neste caso queremos analisar os dados de viagens de bicicleta do New York Citi, então vamos procurar esse conjunto de dados e clicar em **Exibir conjunto de dados**. No console do BigQuery, você vê dois projetos no painel esquerdo, um chamado **ID do projeto do Qwiklabs** e outro chamado **bigquery-public-data**. Vamos rolar para baixo e encontrar nossa tabela. E então selecionaremos a tabela e depois a guia **Visualizar** para examinar as colunas e os dados. Em seguida, vamos executar uma nova consulta. Esta consulta nos informará a duração típica dos 10 aluguéis só de ida mais comuns. Vamos executar mais uma consulta, desta vez para encontrar a distância total percorrida por cada bicicleta no conjunto de dados. Observe que, neste caso, estamos extraindo dados de algumas tabelas de dados diferentes (`citybike_trips` e `citibike_stations`) e unindo as tabelas para obter os resultados pretendidos.
 
-### Quiz: Explore dados e extraia insights usando o BigQuery
+### Tome Decisões Baseadas em Dados Usando o Looker
 
-Você chegou ao final deste módulo sobre o BigQuery, o data warehouse empresarial totalmente gerenciado do Google para análise e armazenamento. Vamos recapitular brevemente o que você aprendeu. Primeiro, você recebeu uma introdução ao BigQuery, incluindo uma breve demonstração da plataforma. Em seguida, você aprendeu como obter insights dos seus dados com o BigQuery, incluindo como acessar os dados necessários e executar consultas básicas. Por fim, você aprendeu mais sobre armazenamento e organização do BigQuery. Ao longo do caminho, você viu demonstrações e participou de alguns laboratórios. Na próxima seção, você aprenderá sobre o Looker, a ferramenta de análise e visualização de dados do Google Cloud.
+Bem-vindo à seção sobre o Looker! Nesta parte do curso, você aprenderá os fundamentos da análise, visualização e compartilhamento de dados usando a plataforma Looker. O Looker é uma ferramenta poderosa que permite capacitar suas equipes a tomar decisões eficazes e baseadas em dados. Vamos explorar o que o Looker pode fazer por você.
 
----
+#### O Que É o Looker?
+
+O Looker é uma plataforma que ajuda você a:
+- Acessar e revisar os dados coletados pela sua empresa.
+- Responder a perguntas sobre dados em tempo real.
+- Manter-se atualizado sobre o status do seu negócio.
+- Usar dados para orientar a tomada de decisões.
+
+#### Processo de Análise de Dados no Looker
+
+1. **Identificação das Perguntas de Dados:**
+   - Comece definindo as perguntas que você deseja responder com seus dados. Exemplos incluem: Quantas vendas foram feitas na semana passada? Qual é a demografia dos seus usuários ou clientes? Qual é o status de envio de todos os pedidos?
+
+2. **Identificação dos Dados Necessários:**
+   - Determine quais dados são necessários para responder suas perguntas. Por exemplo, para o status de envio, você precisará de dados sobre pedidos e remessas.
+
+3. **Exploração dos Dados:**
+   - No Looker, a análise é chamada de “exploração”. Combine dimensões e medidas para encontrar respostas. Dimensões são atributos dos dados (por exemplo, data do pedido), enquanto medidas são cálculos (por exemplo, contagem de pedidos).
+
+4. **Interpretação dos Resultados:**
+   - Depois de analisar e visualizar os dados, interprete os resultados para obter insights e tomar decisões. Por exemplo, você pode descobrir que uma campanha de marketing recente foi bem-sucedida e usar esses dados para justificar futuras campanhas.
+
+#### Manipulação do Looker
+
+- **Explorar:** A interface “Explorar” permite criar relatórios e fazer perguntas usando seus dados. Você encontrará Explores listados na seção Explorar. Cada Explore contém campos agrupados em visualizações, e você pode usar dimensões e medidas para consultar e selecionar dados.
+
+- **Dimensões e Medidas:**
+  - **Dimensões:** Atributos dos dados (por exemplo, data, preço, status do envio).
+  - **Medidas:** Cálculos realizados em várias linhas de dados (por exemplo, contagem de pedidos).
+
+- **Visualização:**
+  - Escolha o tipo de visualização apropriado (gráficos de barras, linhas, pizza, etc.) para comunicar seus insights de forma eficaz. Personalize gráficos com rótulos, cores e fontes conforme necessário.
+
+- **Filtros e Pivôs:**
+  - **Filtros:** Restrinja resultados para focar em um subconjunto dos dados (por exemplo, mostrar apenas cidades na Califórnia).
+  - **Pivôs:** Transforme dimensões em colunas para criar matrizes de dados (por exemplo, exibir faixas etárias em vez de apenas cidades).
+
+#### Compartilhamento de Dados
+
+- **Looker:** Compartilhe insights criando Looks ou painéis, exportando dados em formatos como CSV, PDF, ou PNG, ou enviando relatórios por e-mail. Agende envios regulares para manter a equipe atualizada.
+
+- **Looker Studio:** Use a interface de arrastar e soltar para criar e compartilhar relatórios e painéis. O Looker Studio é mais fácil de usar, mas menos poderoso que o Looker. É ótimo para visualização e colaboração em tempo real.
