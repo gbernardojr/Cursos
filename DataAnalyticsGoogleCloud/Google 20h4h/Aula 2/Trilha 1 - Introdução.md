@@ -172,6 +172,120 @@ O BigQuery é um data warehouse totalmente gerenciado, o que significa que ele c
 
 ---
 
+## Modulo 3: Tomando Decisões Baseadas em Dados Usando o Looker
 
+---
+
+### Introdução
+
+Bem-vindo ao manual sobre como tomar decisões baseadas em dados usando o Looker. Esta ferramenta poderosa permite que você analise, visualize e compartilhe dados de maneira eficaz, capacitando sua equipe a tomar decisões fundamentadas em informações precisas.
+
+---
+
+### O que é Looker?
+
+O Looker é uma plataforma de análise de dados que ajuda a:
+
+- **Acessar e revisar dados** coletados pela empresa.
+- **Responder perguntas sobre dados** em tempo real.
+- **Manter-se atualizado** sobre o status do negócio.
+- **Usar dados para orientar a tomada de decisões**.
+
+---
+
+### Processo Comum de Análise de Dados no Looker
+
+1. **Identificação das Perguntas de Dados**
+   - Exemplo: Quantas vendas foram feitas na semana passada? Qual é a demografia dos seus usuários?
+
+2. **Identificação dos Dados Necessários**
+   - Exemplo: Dados sobre pedidos, remessas, origem dos usuários.
+
+3. **Análise dos Dados**
+   - No Looker, isso é feito através da "exploração", onde você combina dimensões e medidas para encontrar respostas.
+
+4. **Interpretação dos Resultados**
+   - Exemplo: Identificar o sucesso de uma campanha de marketing e defender mais campanhas semelhantes.
+
+---
+
+### Explorando Dados no Looker
+
+1. **Interface do Looker**
+
+   - **Explorar**: A interface principal para criar relatórios e fazer perguntas sobre seus dados.
+   - **Seletor de Campos**: Localizado no painel lateral esquerdo, onde os campos são agrupados em visualizações.
+   - **Dimensões e Medidas**:
+     - **Dimensões**: Atributos ou características dos dados (ex: data, preço, status do envio).
+     - **Medidas**: Cálculos realizados em linhas de dados (ex: contagem de pedidos).
+
+2. **Criação de Visualizações**
+
+   - Adicione dimensões e medidas para responder a perguntas específicas.
+   - Exemplo: Para saber quantos pedidos foram feitos, adicione a dimensão "data do pedido" e a medida "contagem".
+
+3. **Ajuste de Visualizações**
+
+   - Escolha o tipo de visualização adequado (gráfico de colunas, linhas, etc.).
+   - Personalize as visualizações, como adicionar rótulos de valor.
+
+4. **Filtragem de Resultados**
+
+   - Use filtros para restringir resultados com base em critérios específicos (ex: cidades na Califórnia).
+
+5. **Uso de Pivôs**
+
+   - Transforme dimensões em colunas para criar matrizes de dados.
+   - Exemplo: Adicione a dimensão "faixa etária" para comparar dados por idade.
+
+---
+
+### Compartilhamento de Dados
+
+1. **No Looker**
+
+   - **Salvar como Look**: Relatório ou visualização único salvo.
+   - **Salvar em Painel**: Série de relatórios salvos em uma página.
+   - **Exportar Dados**: Em formatos como CSV, PDF, ou PNG.
+   - **Enviar Dados**: Por e-mail ou criar cronogramas de envio.
+
+2. **No Looker Studio**
+
+   - **Compartilhamento**: Semelhante ao Google Drive, onde você pode definir permissões para visualização ou edição.
+   - **Visualização**: Criar gráficos usando dados do Looker e personalizá-los conforme necessário.
+   - **Integração**: Conectar ao Looker usando o conector Looker no Looker Studio.
+
+---
+
+### Visualizações no Looker Studio
+
+- **Gráficos de Barras**: Comparar dados entre categorias.
+- **Gráficos de Linhas**: Mostrar mudanças ao longo do tempo.
+- **Gráficos de Área**: Similar aos gráficos de linhas, mas com a área abaixo da linha preenchida.
+- **Gráficos de Pizza/Rosca**: Mostrar proporções relativas.
+- **Gráficos de Dispersão**: Mostrar a relação entre duas variáveis.
+- **Mapas de Calor e Mapas**: Mostrar a distribuição e localização geográfica dos dados.
+
+---
+
+### Laboratório
+
+1. **No Looker**
+
+   - **Explorar Dados**: Use a interface Explore para consultar e selecionar dados.
+   - **Criar Visualizações**: Selecione o tipo de visualização apropriado.
+   - **Salvar Consultas**: Adicione a um painel.
+
+2. **No Looker Studio**
+
+   - **Criar Relatório**: Obtenha um conjunto de dados, adicione gráficos e estilize o relatório.
+
+---
+
+### Conclusão
+
+Você agora possui uma compreensão abrangente de como usar o Looker e o Looker Studio para análise de dados. Através da exploração de dados, criação de visualizações e compartilhamento de informações, você está pronto para tomar decisões baseadas em dados e compartilhar descobertas com sua equipe.
+
+---
 
 
