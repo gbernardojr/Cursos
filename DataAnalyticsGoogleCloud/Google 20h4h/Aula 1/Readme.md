@@ -48,11 +48,13 @@
 - Abrir uma guia anônima no navegador de Internet
 - Formulário de inscrição: https://www.cloudskillsboost.google/focuses/2794?parent=catalog&qlcampaign=4p-EDUCR-GCCFSENAISP_AUG24-19
 - Ao abrir o site de inscrição do Cloud Skills Boost, fazer a inscrição e ir em perfil e ativar o "Perfil Público"
-- Trilha 1: https://www.cloudskillsboost.google/course_templates/578
 
 ### O que é Ciências de Dados
 - Apresentação Fundamentos de Ciências de Dados
 - Página Developer cheat sheet: https://googlecloudcheatsheet.withgoogle.com/
+
+### Introduction to Data Analytics on Google Cloud
+- Trilha 1: https://www.cloudskillsboost.google/course_templates/578
 
 ## Avaliação
 - Laboratórios orientados
