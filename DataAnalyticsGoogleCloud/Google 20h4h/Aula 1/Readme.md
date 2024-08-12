@@ -54,7 +54,7 @@
 - Página Developer cheat sheet: https://googlecloudcheatsheet.withgoogle.com/
 
 ### Introduction to Data Analytics on Google Cloud
-- Trilha 1: https://www.cloudskillsboost.google/course_templates/578
+- Trilha 1: https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR
 
 ## Avaliação
 - Laboratórios orientados
