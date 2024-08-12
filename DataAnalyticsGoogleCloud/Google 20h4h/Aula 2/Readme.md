@@ -7,7 +7,7 @@
 
 ## Tema da Aula
 - Derive Insights from BigQuery Data
-- 
+  
 ## Objetivos da Aula
 - **Geral:** 
   - 
