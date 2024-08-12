@@ -1,4 +1,4 @@
-# Quiz: Making data-driven decisions using Looker
+# Quiz 3: Making data-driven decisions using Looker
 
 ## 1.You ran a query and have results showing year-over-year sales growth. What type of Looker Studio visualization would be best to display the data?
 - Donut chart
