@@ -4,9 +4,9 @@
 
 
   ### What's wrong with the previous query to view 1000 items?
-    * There is a typo in the dataset name
-    #### * We have not specified any columns in the SELECT
-    #### * There is a typo in the table name
-    * We are using legacy SQL
+    There is a typo in the dataset name
+    #### We have not specified any columns in the SELECT
+    #### There is a typo in the table name
+    We are using legacy SQL
 
 
