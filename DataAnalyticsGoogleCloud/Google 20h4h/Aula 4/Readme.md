@@ -37,8 +37,7 @@
 - [Discussão introdutória]
 
 ### Desenvolvimento (60 minutos)
-- [Descrição detalhada das atividades e conteúdos]
-- [Métodos de ensino (ex.: exposição, discussão, prática)]
+- https://www.cloudskillsboost.google/course_templates/336?locale=pt_BR&authuser=0
 
 ### Fechamento (10 minutos)
 - [Resumo dos pontos principais]
