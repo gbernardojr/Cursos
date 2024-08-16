@@ -56,9 +56,6 @@
 ### Introduction to Data Analytics on Google Cloud
 - Trilha 1: https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR
 
-  ![image](https://github.com/user-attachments/assets/cf255ebd-d2cf-4918-be1d-ff1617a59616)
-
-
 ## Avaliação
 - Laboratórios orientados
 - Desafios
