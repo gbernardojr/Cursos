@@ -10,16 +10,17 @@
   
 ## Objetivos da Aula
 - **Geral:** 
-  - 
+  - Gravar consultas SQL, consultar tabelas públicas e carregar dados de amostra no BigQuery, solucionar erros comuns de sintaxe com o validador de consultas no BigQuery e criar relatórios no Looker Studio fazendo a conexão com dados do BigQuery.
 - **Específicos:**
-  - 
-  - 
-  - 
+  - Introdução ao SQL para BigQuery e Cloud SQL
+  - Analisar um conjunto de dados de e-commerce com SQL no BigQuery
+  - Solucionar problemas comuns de SQL com o BigQuery
+  - Analise e crie relatórios com o Looker Studio
 
 ## Conteúdo Programático
-- 
-- 
-- 
+- BigQuery
+- CloudSQL
+- Looker Studio
 
 ## Metodologia
 - Exercícios Dirigidos
@@ -41,11 +42,8 @@
 - [Discussão final]
 
 ## Avaliação
-- Laboratórios dirigidos
-- Quizz
-
-## Referências
-
+- 6 Laboratórios dirigidos
+- 1 Desafio
 
 ## Anotações
 
