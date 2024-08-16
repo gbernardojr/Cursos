@@ -1,4 +1,4 @@
-# Respostas do Quiz 2 - Leveraging Data
+# Respostas do Quiz 3 - Leveraging Data
 
 ### 1.What types of data sources are supported by AppSheet? (Select 2)
 - IoT (Internet-of-things) devices
