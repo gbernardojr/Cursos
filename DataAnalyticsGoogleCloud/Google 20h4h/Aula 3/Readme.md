@@ -10,17 +10,19 @@
   
 ## Objetivos da Aula
 - **Geral:** 
-  - Gravar consultas SQL, consultar tabelas públicas e carregar dados de amostra no BigQuery, solucionar erros comuns de sintaxe com o validador de consultas no BigQuery e criar relatórios no Looker Studio fazendo a conexão com dados do BigQuery.
+  - Aprender a fazer o tipo de exploração e análise de dados no Looker que anteriormente seria feito principalmente por desenvolvedores ou analistas de SQL.
 - **Específicos:**
-  - Introdução ao SQL para BigQuery e Cloud SQL
-  - Analisar um conjunto de dados de e-commerce com SQL no BigQuery
-  - Solucionar problemas comuns de SQL com o BigQuery
-  - Analise e crie relatórios com o Looker Studio
+  - Conhercer a plataforma Looker
+  - Conhecer os Blocos de Construção e conteúdo do Looker
+  - Personalizar explorações
+  - Compartilhar dados
 
 ## Conteúdo Programático
-- BigQuery
-- CloudSQL
-- Looker Studio
+  - A plataforma Looker
+  - Blocos de construção de análise de dados
+  - Como trabalhar com o conteúdo do Looker
+  - Personalizando explorações
+  - Como compartilhar dados do Looker com outras pessoas
 
 ## Metodologia
 - Exercícios Dirigidos
@@ -43,8 +45,8 @@
 - [Discussão final]
 
 ## Avaliação
-- 6 Laboratórios dirigidos
-- 1 Desafio
+- 2 Laboratórios dirigidos
+- 6 Quizzes
 
 ## Anotações
 
