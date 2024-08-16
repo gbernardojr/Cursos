@@ -38,6 +38,8 @@
 - Nothing, it executes correctly
 - ***The COUNT() function does not de-deduplicate the same fullVisitorId***
 
+## Tarefa 3: listar as cidades com mais transações no site de e-commerce
+
 ### Which city had the most distinct visitors? Ignore the value: 'not available in this demo dataset'
 - ***Mountain View***
 - San Jose
@@ -49,6 +51,8 @@
 - ***You cannot filter on aliased fields within the `WHERE` clause***
 - Nothing, it executes correctly
 - ***You cannot filter aggregated fields in the `WHERE` clause (use `HAVING` instead)***
+
+## Tarefa 4: encontrar o número total de produtos em cada categoria
 
 ### What is wrong with the previous query?
 - ***No aggregate functions are used***
