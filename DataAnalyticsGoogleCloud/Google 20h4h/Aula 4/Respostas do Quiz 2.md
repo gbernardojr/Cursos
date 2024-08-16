@@ -1,4 +1,4 @@
-# Respostas do Quiz 1 - Getting Started
+# Respostas do Quiz 2 - Getting Started
 
 ### 1.As you build and customize your app, which is the quickest and easiest way to test it?
 - Use the AppSheet-provided browser link to test the app in a separate tab or window.
