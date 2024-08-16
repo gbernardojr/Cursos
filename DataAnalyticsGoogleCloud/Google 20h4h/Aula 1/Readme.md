@@ -3,8 +3,6 @@
 ## Identificação
 - **Disciplina:** Fundamentos de Ciência de Dados - Google Cloud
 - **Professor:** Gilberto Aparecido Bernardo Junior
-- **Turma:** GR-G.CLOUD-2C24 
-- **Data:** 03/08/2024
 - **Duração da aula:** 4 horas
 
 ## Tema da Aula
@@ -57,8 +55,8 @@
 - Trilha 1: https://www.cloudskillsboost.google/course_templates/578?locale=pt_BR
 
 ## Avaliação
-- Laboratórios orientados
-- Desafios
+- 3 Laboratórios orientados
+- 3 Quizzes
 
 ## Anotações
 
