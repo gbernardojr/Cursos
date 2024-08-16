@@ -1,57 +1,48 @@
+### Desenvolvimento (60 minutos)
+
+
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Nome da Disciplina]
-- **Professor:** [Nome do Professor]
-- **Turma:** [Nome da Turma]
-- **Data:** [Data da Aula]
-- **Duração:** [Duração da Aula]
+- **Disciplina:** Fundamentos de Ciência de Dados - Google Cloud
+- **Professor:** Gilberto Aparecido Bernardo Junior
+- **Duração da aula:** 4 horas
 
 ## Tema da Aula
-- [Título do Tema]
+- Criação de aplicativos sem código com o AppSheet: Fundamentos
 
 ## Objetivos da Aula
 - **Geral:** 
-  - [Objetivo geral da aula]
+  - Aprender os fundamentos do desenvolvimento de aplicativos sem código e reconhecerá casos de uso para aplicativos sem código.
 - **Específicos:**
-  - [Objetivo específico 1]
-  - [Objetivo específico 2]
-  - [Objetivo específico 3]
-
+  - Definir os fundamentos do desenvolvimento de aplicativos sem código e fornecer uma visão geral dos recursos do AppSheet.
+  - Como usar o AppSheet e entender a interface do usuário do editor do AppSheet.
+  - Usar fontes de dados com seu aplicativo
+ 
 ## Conteúdo Programático
-- [Tópico 1]
-- [Tópico 2]
-- [Tópico 3]
-
+  - Visão geral do AppSheet
+  - Começando
+  - Aproveitando os dados
+  - Definindo a experiência do usuário do seu aplicativo
+  - Publicando seu aplicativo
+    
 ## Metodologia
-- [Descrição da metodologia a ser utilizada]
+- Tecnologias Digitais - Gamificação
 - **Recursos Didáticos:**
-  - [Recurso 1]
-  - [Recurso 2]
-  - [Recurso 3]
+  - Site Cloud Skills Boost
+  - Slides
 
-## Desenvolvimento da Aula
+## Desenvolvimento
 
-### Abertura (10 minutos)
-- [Atividade inicial]
-- [Discussão introdutória]
+### Apresentações (30 minutos)
+- Boas vindas
+- Revisão da aula anterior
 
-### Desenvolvimento (60 minutos)
+### Desenvolvimento
 - https://www.cloudskillsboost.google/course_templates/336?locale=pt_BR&authuser=0
 
-### Fechamento (10 minutos)
-- [Resumo dos pontos principais]
-- [Discussão final]
-- [Tarefa de casa]
-
 ## Avaliação
-- [Método de avaliação]
-- [Critérios de avaliação]
-
-## Referências
-- [Referência 1]
-- [Referência 2]
-- [Referência 3]
+- 4 Laboratórios orientados
+- 5 Quizzes
 
 ## Anotações
-- [Espaço para anotações adicionais]
