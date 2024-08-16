@@ -22,9 +22,9 @@
 
 5.In what order are filters applied to your data in Looker during data analysis? Please choose the best answer.
 - Measure filter first, then dimension filter.
-- ***Dimension and measure filters at the same time.***
+- Dimension and measure filters at the same time.
 - None of the order options suggested apply to filtering.
-- Dimension filter first, then measure filters.
+- ***Dimension filter first, then measure filters.***
 
 6.After the measure filter is applied, Looker discards all of the irrelevant data and only presents data that meets all current filter criteria.
 - ***True***
