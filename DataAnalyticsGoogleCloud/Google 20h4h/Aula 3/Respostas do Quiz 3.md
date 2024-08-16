@@ -11,21 +11,21 @@
 - False
 
 ### 3.Any content added to a board moves to the location of that content in the board directory structure.
-- check False
+- ***False***
 - True
 
 ### 4.A data explorer end user must enter a dashboard-specific edit mode to add, remove or modify filters for a dashboard.
-- check True
+- ***True***
 - False
 
 ### 5.What field types can data explorer end users select as filter criteria in a Looker dashboard? Please choose the best answer.
 - Neither dimensions nor measures.
 - Dimensions only.
 - Measures only.
-- check Both dimensions and measures.
+- ***Both dimensions and measures.***
 
 ### 6.What field types can data explorer end users select as filter criteria in a Look? Please choose the best answer.
-- check Both dimensions and measures.
+- ***Both dimensions and measures.***
 - Measures only.
 - Neither dimensions nor measures.
 - Dimensions only.
@@ -34,4 +34,4 @@
 - Dashboards.
 - URLs.
 - Looks.
-- check Explores.
+- ***Explores.***
