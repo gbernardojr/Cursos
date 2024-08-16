@@ -1,58 +1,49 @@
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Nome da Disciplina]
-- **Professor:** [Nome do Professor]
-- **Turma:** [Nome da Turma]
-- **Data:** [Data da Aula]
-- **Duração:** [Duração da Aula]
+- **Disciplina:** Fundamentos de Ciência de Dados - Google Cloud
+- **Professor:** Gilberto Aparecido Bernardo Junior
+- **Duração da aula:** 4 horas
 
 ## Tema da Aula
-- [Título do Tema]
+- Implantar e Gerenciar Ambientes de Nuvem com o Google Cloud
 
 ## Objetivos da Aula
 - **Geral:** 
-  - [Objetivo geral da aula]
+  - Capacitar os participantes a implementar e gerenciar ambientes de nuvem utilizando os serviços do Google Cloud, assegurando uma administração eficaz e segura dos recursos na nuvem.
 - **Específicos:**
-  - [Objetivo específico 1]
-  - [Objetivo específico 2]
-  - [Objetivo específico 3]
-
+  - Compreender os Fundamentos do Google Cloud
+  - Implantar Recursos e Serviços na Nuvem
+  - Gerenciar e Automatizar Ambientes de Nuvem
+  - Garantir Segurança e Conformidade
+  - Resolver Problemas e Otimizar Desempenho
+ 
 ## Conteúdo Programático
-- [Tópico 1]
-- [Tópico 2]
-- [Tópico 3]
-
+  - Como configurar as permissões do IAM com o gcloud
+  - Como hospedar um app da Web no Google Cloud com o Compute Engine
+  - Orquestração na nuvem com o Kubernetes
+  - Introdução a redes
+  - Como usar o BigQuery e o Cloud Logging para analisar o uso do BigQuery
+  - Migrar para o Cloud SQL para PostgreSQL usando o Database Migration Service
+  - Configurar uma rede do Google Cloud: laboratório com desafio
+    
 ## Metodologia
-- [Descrição da metodologia a ser utilizada]
+- Tecnologias Digitais - Gamificação
 - **Recursos Didáticos:**
-  - [Recurso 1]
-  - [Recurso 2]
-  - [Recurso 3]
+  - Site Cloud Skills Boost
+  - Slides
 
-## Desenvolvimento da Aula
+## Desenvolvimento
 
-### Abertura (10 minutos)
-- [Atividade inicial]
-- [Discussão introdutória]
+### Apresentações (30 minutos)
+- Boas vindas
+- Revisão da aula anterior
 
-### Desenvolvimento (60 minutos)
-- [Descrição detalhada das atividades e conteúdos]
-- [Métodos de ensino (ex.: exposição, discussão, prática)]
-
-### Fechamento (10 minutos)
-- [Resumo dos pontos principais]
-- [Discussão final]
-- [Tarefa de casa]
+### Desenvolvimento
+- https://www.cloudskillsboost.google/course_templates/641?authuser=0
 
 ## Avaliação
-- [Método de avaliação]
-- [Critérios de avaliação]
-
-## Referências
-- [Referência 1]
-- [Referência 2]
-- [Referência 3]
+- 6 Laboratórios orientados
+- 1 Desafio
 
 ## Anotações
-- [Espaço para anotações adicionais]
