@@ -1,5 +1,5 @@
 palavra1 = input("Digite uma palavra para criptografar: ")
-palavracripto = ""
+palavraCripto = ""
 for letra in palavra1:
     numeroDaLetra = ord(letra)
     numeroDaLetra = numeroDaLetra + 1
