@@ -8,7 +8,7 @@ for letra in palavra1:
 print(f"Palavra criptografada:{palavraCripto}")
 
 palavra2 = input("Digite uma palavra para criptografar: ")
-palavracripto = ""
+palavraCripto = ""
 for letra in palavra2:
     numeroDaLetra = ord(letra)
     numeroDaLetra = numeroDaLetra + 1
@@ -17,7 +17,7 @@ for letra in palavra2:
 print(f"Palavra criptografada:{palavraCripto}")
 
 senha    = input("Digite uma senha   para criptografar: ")
-palavracripto = ""
+palavraCripto = ""
 for letra in senha:
     numeroDaLetra = ord(letra)
     numeroDaLetra = numeroDaLetra + 1
