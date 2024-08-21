@@ -37,7 +37,7 @@ while True:
         print(linha)                            
     else:
         totalErros = totalErros + 1
-        print("A resposta está ??? Erradaaaa!! )
+        print("A resposta está ??? Erradaaaa!!" )
         
     print("\nPontuação")
     print(f"- Total de Erros  : {totalErros}")
