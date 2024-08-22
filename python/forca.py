@@ -28,16 +28,17 @@ while True:
         totalAcertos = totalAcertos + 1
         letrasCertas = letrasCertas + letra
         linha = " "
-        for umaLetra in letrasCertas:
-            for i in range(len(palavraSecreta)):
-                if umaLetra == palavraSecreta[i]:
-                    linha = linha + umaLetra + " "
-                else:
-                    linha = linha + "__ "
-        print(linha)                            
+        for i in range(len(palavraSecreta)):
+            if palavraSecreta[i] in letrasCertas:
+                linha = linha + palavraSecreta[i] + " "
+            else:
+                linha = linha + "__ "
+        print(linha)
+        linha = ' '                            
     else:
         totalErros = totalErros + 1
-        print("A resposta está ??? Erradaaaa!!" )
+        letrasErradas = letrasErradas + letra
+        print("A resposta está ??? Erradaaaa!! ")
         
     print("\nPontuação")
     print(f"- Total de Erros  : {totalErros}")
@@ -53,3 +54,4 @@ while True:
         print("Você perdeu!!!")
         break
         
+
