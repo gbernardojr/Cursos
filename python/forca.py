@@ -23,14 +23,19 @@ letrasErradas = ""
 
 while True:
     letra = input("Digite uma letra: ")
+    
+    if (letra in letrasCertas) or (letra in letrasErradas):
+        print("Letra já digitada")
+        continue
 
     if letra in palavraSecreta:
-        totalAcertos = totalAcertos + 1
         letrasCertas = letrasCertas + letra
         linha = " "
+        totalAcertos = 0
         for i in range(len(palavraSecreta)):
             if palavraSecreta[i] in letrasCertas:
                 linha = linha + palavraSecreta[i] + " "
+                totalAcertos = totalAcertos + 1
             else:
                 linha = linha + "__ "
         print(linha)
