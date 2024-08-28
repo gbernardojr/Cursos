@@ -1,4 +1,3 @@
-Certamente, Luca! Aqui está um manual básico sobre coleções em Python, com exemplos práticos para facilitar o entendimento.
 
 # Manual sobre Coleções em Python
 
