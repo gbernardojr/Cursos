@@ -4,7 +4,7 @@ Para ter acesso a solução do desafio clique no link a seguir:
 
 ### https://witty-cornet-caa.notion.site/Lab-7-Com-desafio-0452c5782b964d8b866929e5d40af9aa
 
-## Contribuição do aluno Willian Shigueo da Rocha Anno para solução dos desafios:
+## Contribuição do aluno Willian Shigueo da Rocha Anno para solução do desafio:
 
 O vídeo abaixo tem 10:07 de duração, porém está bastante rápido, recomendo colocar a velocidade de reprodução em 0,25; com isso consegue acompanhar o passo a passo!
 
