@@ -4,8 +4,8 @@
 
 ## Aula 1: Fundamentos do Pygame (3 horas)
 
-### 1. Introdução ao Pygame (30 min)
-- O **Pygame** é uma biblioteca Python para desenvolvimento de jogos 2D.
+### 1 Introdução ao Pygame (30 min)
+- O Pygame é uma biblioteca Python para desenvolvimento de jogos 2D.
 - **Instalação**: 
   Para instalar o Pygame, utilize o seguinte comando:
   ```bash
