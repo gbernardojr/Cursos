@@ -463,3 +463,117 @@ Para continuar aprendendo, recomendo que você crie projetos práticos, como:
 - Comunidades online como StackOverflow e Django Fórum
 
 ---
+
+## Anexo I - Configurando acesso ao banco de dados
+
+Para configurar o acesso ao banco de dados no Django, você precisa modificar o arquivo `settings.py` do seu projeto. Aqui está o passo a passo:
+
+### 1. Escolhendo o Banco de Dados
+
+O Django suporta vários bancos de dados, sendo o SQLite o padrão. Você pode alterar essa configuração para utilizar outros bancos como PostgreSQL, MySQL, Oracle, ou qualquer outro banco de dados suportado pelo Django.
+
+### 2. Configurando o Banco de Dados no `settings.py`
+
+No arquivo `settings.py`, localize a variável `DATABASES`. Por padrão, ela estará configurada para o SQLite:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
+
+### 3. Configurando outro Banco de Dados
+
+#### a. **PostgreSQL**
+
+Se você deseja usar PostgreSQL, primeiro instale o driver correspondente:
+
+```bash
+pip install psycopg2
+```
+
+Em seguida, modifique a configuração do `DATABASES` no `settings.py` para algo semelhante:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nome_do_banco',
+        'USER': 'usuario',
+        'PASSWORD': 'senha',
+        'HOST': 'localhost',  # Ou o IP do servidor do banco de dados
+        'PORT': '5432',       # A porta padrão do PostgreSQL
+    }
+}
+```
+
+#### b. **MySQL**
+
+Para MySQL, instale o driver:
+
+```bash
+pip install mysqlclient
+```
+
+Depois, configure o banco de dados no `settings.py`:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nome_do_banco',
+        'USER': 'usuario',
+        'PASSWORD': 'senha',
+        'HOST': 'localhost',  # Ou o IP do servidor do banco de dados
+        'PORT': '3306',       # Porta padrão do MySQL
+    }
+}
+```
+
+#### c. **Oracle**
+
+Para o Oracle, o driver é o `cx_Oracle`:
+
+```bash
+pip install cx_Oracle
+```
+
+E a configuração no `settings.py` ficaria assim:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'nome_do_banco',
+        'USER': 'usuario',
+        'PASSWORD': 'senha',
+        'HOST': 'localhost',
+        'PORT': '1521',
+    }
+}
+```
+
+### 4. Migrations e Sincronização do Banco de Dados
+
+Após configurar o banco de dados, execute as **migrations** para criar as tabelas necessárias no banco:
+
+```bash
+python manage.py migrate
+```
+
+Isso aplicará todas as migrações pendentes e criará as tabelas do Django no novo banco de dados configurado.
+
+### 5. Testando a Conexão
+
+Agora, você pode rodar o servidor de desenvolvimento do Django e verificar se o banco de dados está funcionando corretamente:
+
+```bash
+python manage.py runserver
+```
+
+Se tudo estiver correto, o Django estará conectado ao seu banco de dados configurado, pronto para armazenar e gerenciar dados.
+
+---
