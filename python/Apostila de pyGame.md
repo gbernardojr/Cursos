@@ -1,5 +1,3 @@
----
-
 # Apostila de Pygame
 
 ## Aula 1: Fundamentos do Pygame (3 horas)
