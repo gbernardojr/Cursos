@@ -1,6 +1,3 @@
-Vou começar a montar a apostila passo a passo, seguindo a estrutura sugerida. Aqui está o início da apostila com os primeiros capítulos explicados em detalhes:
-
----
 
 # **Apostila Django - Do Básico ao Profissional**
 
