@@ -19,7 +19,7 @@ Este caso de uso descreve o comportamento de um sistema que permite ao usuário 
 5. O sistema calcula o IMC utilizando a fórmula:
 
    \[
-   IMC = \frac{peso}{altura^2}
+   IMC = {peso}/{altura^2}
    \]
 
 6. O sistema exibe o resultado do IMC.
@@ -47,7 +47,7 @@ Este caso de uso descreve o comportamento de um sistema que permite ao usuário 
 ### 10. **Fórmula do IMC**:
 
 \[
-IMC = \frac{peso (kg)}{altura (m)^2}
+IMC = {peso (kg)}/{altura (m)^2}
 \]
 
 Essa estrutura pode servir de base para a implementação de um programa simples ou até ser expandida para um software mais completo com funcionalidades adicionais, como histórico de cálculos.
