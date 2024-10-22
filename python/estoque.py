@@ -68,6 +68,25 @@ def limpar_campos():
     entry_nome.delete(0, tk.END)
     entry_quantidade.delete(0, tk.END)
 
+# Função para preencher os campos quando um item for selecionado no Listbox
+def on_select(event):
+    try:
+        # Obtém o índice do item selecionado
+        selected_index = listbox_estoque.curselection()[0]
+        # Pega o texto do item selecionado
+        selected_item = listbox_estoque.get(selected_index)
+        # Separa o nome e a quantidade
+        nome_produto, quantidade = selected_item.split(": ")
+        quantidade = quantidade.split(" ")[0]  # Remove "unidade(s)"
+        
+        # Preenche os campos de entrada
+        entry_nome.delete(0, tk.END)
+        entry_nome.insert(0, nome_produto)
+        entry_quantidade.delete(0, tk.END)
+        entry_quantidade.insert(0, quantidade)
+    except IndexError:
+        pass
+
 # Dicionário para armazenar o estoque
 estoque = {}
 
@@ -102,6 +121,9 @@ btn_remover.grid(row=2, column=2, padx=10, pady=10)
 # Listbox para exibir o estoque
 listbox_estoque = tk.Listbox(janela, width=50, height=10)
 listbox_estoque.grid(row=3, column=0, columnspan=3, padx=10, pady=10)
+
+# Bind do evento de seleção para preencher os campos de entrada
+listbox_estoque.bind("<<ListboxSelect>>", on_select)
 
 # Inicializar a lista de estoque
 atualizar_lista_estoque()
