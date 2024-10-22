@@ -35,15 +35,38 @@ def atualizar_lista_estoque():
         
 # Função para remover um produto do estoque
 def remover_produto():
-    ..
+    nome_produto = entry_nome.get()
+    
+    if nome_produto in estoque:
+        del estoque[nome_produto]
+        atualizar_lista_estoque()
+        limpar_campos()
+        messagebox.showinfo("Sucesso", f'O produto "{nome_produto}" foi removido do estoque.')
+    else:
+        messagebox.showinfo("Erro", f'O produto "{nome_produto}" não foi encontrado no estoque.')
 
 # Função para atualizar a lista de produtos no Listbox
-def atualizar_lista_estoque():
-    ...
+def atualizar_quantidade():
+    nome_produto = entry_nome.get()
+    quantidade = entry_quantidade.get()
+    
+    if nome_produto in estoque and quantidade.isdigit():
+        quantidade = int(quantidade)
+        if quantidade >= 0:
+            estoque[nome_produto] = quantidade
+            atualizar_lista_estoque()
+            limpar_campos()
+            messagebox.showinfo("Sucesso", f'Quantidade do produto "{nome_produto}" atualizada para {quantidade}.')
+        else:
+            messagebox.showinfo("Erro", "A quantidade deve ser maior ou igual a zero.")
+    else:
+        messagebox.showinfo("Erro", f'O produto "{nome_produto}" não foi encontrado no estoque ou quantidade inválida.')
+
 
 # Função para limpar os campos de entrada
 def limpar_campos():
-    ...
+    entry_nome.delete(0, tk.END)
+    entry_quantidade.delete(0, tk.END)
 
 # Dicionário para armazenar o estoque
 estoque = {}
