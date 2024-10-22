@@ -5,12 +5,34 @@ from tkinter import messagebox
 
 # Função para adicionar um produto ao estoque
 def adicionar_produto():
-    ...
+    nome_produto = entry_nome.get()
+    quantidade = entry_quantidade.get()
+    
+    if nome_produto and quantidade.isdigit():
+        quantidade = int(quantidade)
+        if quantidade >= 0:
+            if nome_produto in estoque:
+                messagebox.showinfo("Erro", f'O produto "{nome_produto}" já está no estoque.')
+            else:
+                estoque[nome_produto] = quantidade
+                atualizar_lista_estoque()
+                limpar_campos()
+                messagebox.showinfo("Sucesso", f'Produto "{nome_produto}" adicionado com sucesso!')
+        else:
+            messagebox.showinfo("Erro", "A quantidade deve ser maior ou igual a zero.")
+    else:
+        messagebox.showinfo("Erro", "Nome do produto ou quantidade inválidos!")
+    
 
 # Função para atualizar a quantidade de um produto
-def atualizar_quantidade():
-    ...
-
+def atualizar_lista_estoque():
+    listbox_estoque.delete(0, tk.END)
+    if estoque:
+        for produto, quantidade in estoque.items():
+            listbox_estoque.insert(tk.END, f"{produto}: {quantidade} unidade(s)")
+    else:
+        listbox_estoque.insert(tk.END, "Estoque vazio.")
+        
 # Função para remover um produto do estoque
 def remover_produto():
     ..
