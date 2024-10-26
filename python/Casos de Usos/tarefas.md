@@ -8,7 +8,7 @@ Os dados das tarefas devem ser armazenados temporariamente em uma lista durante 
 - O programa permitirá ao usuário gerenciar uma lista de tarefas.
 - Cada tarefa terá um **nome** e um **status** (concluída ou não concluída).
 - O usuário pode visualizar todas as tarefas, adicionar novas, marcar uma como concluída ou excluir uma tarefa.
-- Ao final do programa, todas as informações sobre as tarefas serão perdidas, pois não há banco de dados ou arquivo de armazenamento permanente.
+- Todas as informações sobre as tarefas serão gravadas em um banco de dados SQLite.
 
 #### Funcionalidades:
 1. **Adicionar Tarefa**: O usuário pode adicionar uma nova tarefa.
