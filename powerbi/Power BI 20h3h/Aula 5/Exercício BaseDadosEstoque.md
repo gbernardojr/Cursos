@@ -23,6 +23,6 @@ Abra no Power BI o arquivo BaseDadosEstoque.xlsx
 
 > Total Saida = CALCULATE(SUM(BaseEstoque[Movimentação]),FILTER(BaseEstoque,BaseEstoque[Tipo]="S")) * -1
 
-> Lucro = Produto[Preço Unit] - Produto[Custo Unit]
+> Lucro = SUM(Produto[Preço Unit]) - SUM(Produto[Custo Unit])
 
-> % Lucro = Produto[Lucro] / Produto[Custo Unit]
+> % Lucro = SUM(Produto[Lucro]) / SUM(Produto[Custo Unit])
