@@ -25,4 +25,4 @@ Abra no Power BI o arquivo BaseDadosEstoque.xlsx
 
 > Lucro = SUM(Produto[Preço Unit]) - SUM(Produto[Custo Unit])
 
-> % Lucro = Produto[Lucro] / SUM(Produto[Custo Unit])
+> % Lucro = Lucro / SUM(Produto[Custo Unit])
