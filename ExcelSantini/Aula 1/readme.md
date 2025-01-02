@@ -1,7 +1,7 @@
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Nome da Disciplina]
+- **Disciplina:** [Excel Básico]
 - **Professor:** [Nome do Professor]
 - **Turma:** [Nome da Turma]
 - **Data:** [Data da Aula]
