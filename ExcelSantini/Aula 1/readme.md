@@ -1,22 +1,22 @@
 # Planejamento de Aula
 
 ## Identificação
-- **Disciplina:** [Excel Básico]
-- **Professor:** [Nome do Professor]
-- **Turma:** [Nome da Turma]
-- **Data:** [Data da Aula]
-- **Duração:** [Duração da Aula]
+- **Disciplina:** Excel Básico
+- **Professor:** Gilberto Aparecido Bernardo Junior
+- **Turma:** Santini
+- **Data:** 06/01/2025
+- **Duração:** 03 horas
 
 ## Tema da Aula
-- [Título do Tema]
+- Estrutura do ambiente de trabalho do Excel.
 
 ## Objetivos da Aula
 - **Geral:** 
-  - [Objetivo geral da aula]
+  - Identificar estrutura do ambiente de trabalho do Excel.
 - **Específicos:**
-  - [Objetivo específico 1]
-  - [Objetivo específico 2]
-  - [Objetivo específico 3]
+  - Conhecer o ambiente
+  - Editar a planilha
+  - Editar conteúdo
 
 ## Conteúdo Programático
 - [Tópico 1]
