@@ -1,5 +1,3 @@
-
-```markdown
 # Caso de Uso: Controle de Funcionários - Departamento de RH
 
 Você é responsável pelo departamento de RH de uma empresa e precisa manter o controle sobre os salários, bônus e dados dos funcionários. O objetivo é calcular a soma dos salários de todos os funcionários, identificar quais funcionários receberam bônus, classificar os funcionários por faixa salarial e buscar informações adicionais sobre as suas áreas de atuação.
@@ -42,7 +40,7 @@ Crie uma fórmula para calcular a soma total dos salários de todos os funcioná
 
 ```excel
 =SOMA(C2:C10)
-```
+
 
 ### 2. Soma de Bônus por Departamento
 
