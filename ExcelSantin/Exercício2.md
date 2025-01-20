@@ -1,6 +1,3 @@
-Aqui está o conteúdo formatado em Markdown:
-
-```markdown
 # Caso de Uso Simplificado: Gestão de um Petshop no Excel
 
 ## Cenário
@@ -32,7 +29,6 @@ Na tabela **Vendas e Serviços Prestados**, crie uma fórmula para verificar se 
 **Exemplo** (na célula correspondente à validação da quantidade):
 ```excel
 =SE(E2=""; "Quantidade inválida"; "OK")
-```
 
 ### 2. Fórmula PROCV()
 - Na tabela **Vendas e Serviços Prestados**, use **PROCV()** para buscar o preço do produto ou serviço com base no `Código do Item`.
