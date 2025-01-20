@@ -40,7 +40,7 @@ Crie uma fórmula para calcular a soma total dos salários de todos os funcioná
 
 ```excel
 =SOMA(C2:C10)
-
+```
 
 ### 2. Soma de Bônus por Departamento
 
