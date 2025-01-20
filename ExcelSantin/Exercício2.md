@@ -33,7 +33,6 @@ Na tabela **Vendas e Serviços Prestados**, crie uma fórmula para verificar se 
 - Na tabela **Vendas e Serviços Prestados**, use **PROCV()** para buscar o preço do produto ou serviço com base no `Código do Item`.
 
 **Exemplo**:
-```excel
 =PROCV(D2; Produtos!A:D; 3; FALSO)
 
 ### 3. Fórmula SOMASE()
@@ -70,8 +69,3 @@ Na tabela **Vendas e Serviços Prestados**, crie uma fórmula para verificar se 
 
 ---
 
-## Resultado Esperado
-O aluno deverá criar uma planilha simples com funcionalidades úteis, desenvolvendo habilidades básicas no uso das fórmulas.
-```
-
-Você pode copiar e colar esse texto diretamente no GitHub para que o formato fique limpo e organizado.
