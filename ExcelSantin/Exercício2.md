@@ -27,7 +27,6 @@ Você é o gestor de um petshop e precisa organizar informações sobre os produ
 Na tabela **Vendas e Serviços Prestados**, crie uma fórmula para verificar se o campo `Quantidade` está vazio. Caso esteja vazio, exiba "Quantidade inválida"; caso contrário, exiba "OK".
 
 **Exemplo** (na célula correspondente à validação da quantidade):
-```excel
 =SE(E2=""; "Quantidade inválida"; "OK")
 
 ### 2. Fórmula PROCV()
@@ -36,7 +35,6 @@ Na tabela **Vendas e Serviços Prestados**, crie uma fórmula para verificar se 
 **Exemplo**:
 ```excel
 =PROCV(D2; Produtos!A:D; 3; FALSO)
-```
 
 ### 3. Fórmula SOMASE()
 - Crie uma célula para calcular o total de vendas realizadas em um período. Use a fórmula **SOMASE()** para somar os valores da coluna `Total` que correspondem a um intervalo de datas.
