@@ -96,7 +96,6 @@ Você trabalha no departamento de vendas de uma empresa e recebeu os seguintes d
 1. Insira uma nova aba no Excel chamada "Dashboard".  
 2. Adicione os gráficos criados.  
 3. Use cores consistentes e insira títulos explicativos.  
-4. Adicione uma segmentação de dados (slicer) para selecionar o mês e atualizar os gráficos dinamicamente.  
 
 ---
 
