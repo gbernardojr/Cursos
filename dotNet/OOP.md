@@ -720,4 +720,224 @@ public class Locadora
 3. Sempre pergunte: **Esta responsabilidade pertence a esta classe?**
 4. Experimente começar com pequenos sistemas e aumente a complexidade gradualmente.
 
+---
+
+Vamos projetar um **sistema de agendamento de consultas médicas** com foco em organizar responsabilidades das classes e como distribuir métodos e propriedades de forma clara. Acompanhe o raciocínio passo a passo.
+
+---
+
+## **Definição do Sistema**
+### Cenário:
+1. Uma clínica médica oferece serviços e precisa gerenciar **médicos**, **pacientes** e **consultas**.
+2. Um médico pode realizar várias consultas.
+3. Um paciente pode agendar consultas com diferentes médicos.
+4. A consulta tem data, horário e status (agendada, cancelada ou concluída).
+
+---
+
+## **Identificação das Classes**
+1. **Médico**
+   - Representa os médicos cadastrados na clínica.
+   - Dados: Nome, Especialidade, CRM.
+   - Responsabilidade: Gerenciar suas informações e consultas associadas.
+
+2. **Paciente**
+   - Representa os pacientes da clínica.
+   - Dados: Nome, CPF, Contato.
+   - Responsabilidade: Gerenciar suas informações e o histórico de consultas.
+
+3. **Consulta**
+   - Representa o agendamento de uma consulta.
+   - Dados: Médico, Paciente, Data, Hora, Status.
+   - Responsabilidade: Representar o agendamento, alterar status e validar disponibilidade.
+
+4. **Agendamento**
+   - Centraliza a lógica de gerenciar consultas.
+   - Dados: Lista de médicos, pacientes e consultas.
+   - Responsabilidade: Registrar, alterar ou cancelar consultas.
+
+---
+
+## **Modelo de Relacionamento**
+1. **Paciente** está associado a várias **Consultas**.
+2. **Médico** está associado a várias **Consultas**.
+3. **Consulta** conecta **Paciente** e **Médico** em uma data e hora específica.
+
+---
+
+## **Código Prático**
+Abaixo está a implementação básica do sistema:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Medico
+{
+    public string Nome { get; set; }
+    public string Especialidade { get; set; }
+    public string CRM { get; set; }
+    public List<Consulta> Consultas { get; private set; } = new List<Consulta>();
+
+    public Medico(string nome, string especialidade, string crm)
+    {
+        Nome = nome;
+        Especialidade = especialidade;
+        CRM = crm;
+    }
+
+    public bool VerificarDisponibilidade(DateTime dataHora)
+    {
+        return !Consultas.Any(c => c.DataHora == dataHora && c.Status == "Agendada");
+    }
+}
+
+public class Paciente
+{
+    public string Nome { get; set; }
+    public string CPF { get; set; }
+    public string Contato { get; set; }
+    public List<Consulta> Consultas { get; private set; } = new List<Consulta>();
+
+    public Paciente(string nome, string cpf, string contato)
+    {
+        Nome = nome;
+        CPF = cpf;
+        Contato = contato;
+    }
+}
+
+public class Consulta
+{
+    public Medico Medico { get; set; }
+    public Paciente Paciente { get; set; }
+    public DateTime DataHora { get; set; }
+    public string Status { get; private set; } = "Agendada";
+
+    public Consulta(Medico medico, Paciente paciente, DateTime dataHora)
+    {
+        Medico = medico;
+        Paciente = paciente;
+        DataHora = dataHora;
+    }
+
+    public void Cancelar()
+    {
+        Status = "Cancelada";
+    }
+
+    public void Concluir()
+    {
+        Status = "Concluída";
+    }
+}
+
+public class Agendamento
+{
+    private List<Medico> Medicos { get; set; } = new List<Medico>();
+    private List<Paciente> Pacientes { get; set; } = new List<Paciente>();
+    private List<Consulta> Consultas { get; set; } = new List<Consulta>();
+
+    public void AdicionarMedico(Medico medico)
+    {
+        Medicos.Add(medico);
+    }
+
+    public void AdicionarPaciente(Paciente paciente)
+    {
+        Pacientes.Add(paciente);
+    }
+
+    public Consulta AgendarConsulta(Medico medico, Paciente paciente, DateTime dataHora)
+    {
+        if (!medico.VerificarDisponibilidade(dataHora))
+            throw new InvalidOperationException("Médico indisponível nesse horário.");
+
+        var consulta = new Consulta(medico, paciente, dataHora);
+        medico.Consultas.Add(consulta);
+        paciente.Consultas.Add(consulta);
+        Consultas.Add(consulta);
+
+        return consulta;
+    }
+
+    public List<Consulta> ListarConsultas()
+    {
+        return Consultas.OrderBy(c => c.DataHora).ToList();
+    }
+}
+```
+
+---
+
+## **Como Funciona**
+1. **Médico**
+   - Gerencia sua agenda (lista de consultas).
+   - Valida se está disponível para um horário específico.
+
+2. **Paciente**
+   - Guarda informações pessoais.
+   - Acompanha seu histórico de consultas.
+
+3. **Consulta**
+   - Conecta um médico e um paciente em um horário específico.
+   - Permite alterar o status (cancelar, concluir).
+
+4. **Agendamento**
+   - Centraliza toda a lógica do sistema.
+   - Gerencia a lista de médicos, pacientes e consultas.
+   - Facilita o acesso às operações de agendamento e listagem.
+
+---
+
+## **Exemplo de Uso**
+Aqui está como usar o sistema em prática:
+
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Criando médicos
+        Medico medico1 = new Medico("Dr. João", "Cardiologista", "CRM12345");
+        Medico medico2 = new Medico("Dra. Ana", "Dermatologista", "CRM67890");
+
+        // Criando pacientes
+        Paciente paciente1 = new Paciente("Carlos Silva", "123.456.789-00", "11 99999-8888");
+        Paciente paciente2 = new Paciente("Maria Santos", "987.654.321-00", "11 88888-7777");
+
+        // Criando o sistema de agendamento
+        Agendamento agendamento = new Agendamento();
+        agendamento.AdicionarMedico(medico1);
+        agendamento.AdicionarMedico(medico2);
+        agendamento.AdicionarPaciente(paciente1);
+        agendamento.AdicionarPaciente(paciente2);
+
+        // Agendando consultas
+        var consulta1 = agendamento.AgendarConsulta(medico1, paciente1, new DateTime(2025, 01, 28, 14, 0, 0));
+        var consulta2 = agendamento.AgendarConsulta(medico2, paciente2, new DateTime(2025, 01, 28, 15, 0, 0));
+
+        // Listando consultas
+        foreach (var consulta in agendamento.ListarConsultas())
+        {
+            Console.WriteLine($"Consulta: {consulta.DataHora} - {consulta.Medico.Nome} com {consulta.Paciente.Nome} ({consulta.Status})");
+        }
+
+        // Cancelando uma consulta
+        consulta1.Cancelar();
+        Console.WriteLine($"Consulta de {consulta1.Paciente.Nome} com {consulta1.Medico.Nome} foi cancelada.");
+    }
+}
+```
+
+---
+
+## **Vantagens dessa Abordagem**
+1. **Organização:** Cada classe tem uma responsabilidade clara e específica.
+2. **Facilidade de manutenção:** Novas funcionalidades podem ser adicionadas sem impactar muito o código existente.
+3. **Reutilização:** As classes **Médico**, **Paciente**, e **Consulta** podem ser reutilizadas em outros contextos.
+
+
+
 
