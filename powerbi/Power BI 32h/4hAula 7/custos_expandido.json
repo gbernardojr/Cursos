@@ -1,0 +1,362 @@
+[
+    {
+        "Mês": "Janeiro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 13279
+    },
+    {
+        "Mês": "Janeiro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 11142
+    },
+    {
+        "Mês": "Janeiro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 8256
+    },
+    {
+        "Mês": "Janeiro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 8210
+    },
+    {
+        "Mês": "Janeiro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 11587
+    },
+    {
+        "Mês": "Fevereiro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 13595
+    },
+    {
+        "Mês": "Fevereiro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 10610
+    },
+    {
+        "Mês": "Fevereiro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 10520
+    },
+    {
+        "Mês": "Fevereiro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 9399
+    },
+    {
+        "Mês": "Fevereiro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 10680
+    },
+    {
+        "Mês": "Março",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 14675
+    },
+    {
+        "Mês": "Março",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 13472
+    },
+    {
+        "Mês": "Março",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 11292
+    },
+    {
+        "Mês": "Março",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 9171
+    },
+    {
+        "Mês": "Março",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 9806
+    },
+    {
+        "Mês": "Abril",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 14367
+    },
+    {
+        "Mês": "Abril",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 13270
+    },
+    {
+        "Mês": "Abril",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 8882
+    },
+    {
+        "Mês": "Abril",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 6107
+    },
+    {
+        "Mês": "Abril",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 9368
+    },
+    {
+        "Mês": "Maio",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 16517
+    },
+    {
+        "Mês": "Maio",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 13662
+    },
+    {
+        "Mês": "Maio",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 11129
+    },
+    {
+        "Mês": "Maio",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 6867
+    },
+    {
+        "Mês": "Maio",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 11889
+    },
+    {
+        "Mês": "Junho",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 15116
+    },
+    {
+        "Mês": "Junho",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 12360
+    },
+    {
+        "Mês": "Junho",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 10305
+    },
+    {
+        "Mês": "Junho",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 6771
+    },
+    {
+        "Mês": "Junho",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 11453
+    },
+    {
+        "Mês": "Julho",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 14799
+    },
+    {
+        "Mês": "Julho",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 11011
+    },
+    {
+        "Mês": "Julho",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 8919
+    },
+    {
+        "Mês": "Julho",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 8686
+    },
+    {
+        "Mês": "Julho",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 10350
+    },
+    {
+        "Mês": "Agosto",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 13724
+    },
+    {
+        "Mês": "Agosto",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 10502
+    },
+    {
+        "Mês": "Agosto",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 11746
+    },
+    {
+        "Mês": "Agosto",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 8522
+    },
+    {
+        "Mês": "Agosto",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 12435
+    },
+    {
+        "Mês": "Setembro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 14132
+    },
+    {
+        "Mês": "Setembro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 13686
+    },
+    {
+        "Mês": "Setembro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 10774
+    },
+    {
+        "Mês": "Setembro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 8149
+    },
+    {
+        "Mês": "Setembro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 10835
+    },
+    {
+        "Mês": "Outubro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 13915
+    },
+    {
+        "Mês": "Outubro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 12533
+    },
+    {
+        "Mês": "Outubro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 8612
+    },
+    {
+        "Mês": "Outubro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 8815
+    },
+    {
+        "Mês": "Outubro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 10115
+    },
+    {
+        "Mês": "Novembro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 16508
+    },
+    {
+        "Mês": "Novembro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 11708
+    },
+    {
+        "Mês": "Novembro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 9634
+    },
+    {
+        "Mês": "Novembro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 9727
+    },
+    {
+        "Mês": "Novembro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 11136
+    },
+    {
+        "Mês": "Dezembro",
+        "Filial": "São Paulo",
+        "Custo Fixo Mensal": 50000,
+        "Custo Variável": 15154
+    },
+    {
+        "Mês": "Dezembro",
+        "Filial": "Rio de Janeiro",
+        "Custo Fixo Mensal": 40000,
+        "Custo Variável": 10924
+    },
+    {
+        "Mês": "Dezembro",
+        "Filial": "Belo Horizonte",
+        "Custo Fixo Mensal": 30000,
+        "Custo Variável": 8298
+    },
+    {
+        "Mês": "Dezembro",
+        "Filial": "Porto Alegre",
+        "Custo Fixo Mensal": 25000,
+        "Custo Variável": 9162
+    },
+    {
+        "Mês": "Dezembro",
+        "Filial": "Curitiba",
+        "Custo Fixo Mensal": 35000,
+        "Custo Variável": 11003
+    }
+]

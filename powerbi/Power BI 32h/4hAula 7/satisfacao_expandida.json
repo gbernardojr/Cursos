@@ -1,0 +1,1502 @@
+[
+    {
+        "Data": "2024-01-01",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-01",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-01",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-01",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-01",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-02",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-02",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-02",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-02",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-02",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-03",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-03",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-03",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-03",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-03",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-04",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-04",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-04",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-01-04",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-04",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-05",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-05",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-05",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-05",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-05",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-06",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-06",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-06",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-06",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-06",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-07",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-07",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-07",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-07",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-07",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-08",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-08",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-08",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-08",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-08",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-09",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-09",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-09",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-01-09",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-09",
+        "Filial": "Curitiba",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-10",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-10",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-10",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-10",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-10",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-11",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-11",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-11",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-01-11",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-11",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-12",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-12",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-12",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-01-12",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-12",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-13",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-01-13",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-13",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-13",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-13",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-14",
+        "Filial": "São Paulo",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-14",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-14",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-14",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-14",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-15",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-15",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-15",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-15",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-15",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-16",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-01-16",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-16",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-01-16",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-16",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-17",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-01-17",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-17",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-17",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-17",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-18",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-01-18",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-18",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-18",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-18",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-19",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-19",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-19",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-19",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-19",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-20",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-20",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-20",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-20",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-20",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-21",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-21",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-21",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-21",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-21",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-22",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-22",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-22",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-22",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-22",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-23",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-23",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-23",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-23",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-23",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-24",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-24",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-24",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-24",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-24",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-25",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-01-25",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-25",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-25",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-25",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-26",
+        "Filial": "São Paulo",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-26",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-26",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-26",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-26",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-27",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-27",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-27",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-27",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-27",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-28",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-28",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-28",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-28",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-01-28",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-29",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-29",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-01-29",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-01-29",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-29",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-30",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-01-30",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-01-30",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-01-30",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-30",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-01-31",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-01-31",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-31",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-01-31",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-01-31",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-01",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-01",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-01",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-01",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-01",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-02",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-02",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-02",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-02",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-02",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-03",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-03",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-03",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-03",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-03",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-04",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-04",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-04",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-04",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-04",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-05",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-05",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-05",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-05",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-05",
+        "Filial": "Curitiba",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-02-06",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-06",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-06",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-06",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-06",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-07",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-07",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-07",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-07",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-07",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-08",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-08",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-08",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-08",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-08",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-09",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-09",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-09",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-09",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-09",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-10",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-10",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-10",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.6
+    },
+    {
+        "Data": "2024-02-10",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-10",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-11",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-11",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-11",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-11",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-11",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-12",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-02-12",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-12",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-12",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-12",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-13",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-13",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-13",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-13",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-13",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-14",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-14",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-14",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-14",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-14",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-15",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-15",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-15",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-02-15",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-02-15",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-16",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-16",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-16",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.5
+    },
+    {
+        "Data": "2024-02-16",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-16",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-17",
+        "Filial": "São Paulo",
+        "Nota Média": 4.8
+    },
+    {
+        "Data": "2024-02-17",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-17",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-02-17",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-17",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-18",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-18",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-18",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-18",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-18",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-19",
+        "Filial": "São Paulo",
+        "Nota Média": 4.7
+    },
+    {
+        "Data": "2024-02-19",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-19",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-19",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-19",
+        "Filial": "Curitiba",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-20",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-20",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-20",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-20",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-20",
+        "Filial": "Curitiba",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-21",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-21",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-21",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-21",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-21",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-22",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-02-22",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-22",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-22",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-22",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-23",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-23",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-23",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-23",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-23",
+        "Filial": "Curitiba",
+        "Nota Média": 4.2
+    },
+    {
+        "Data": "2024-02-24",
+        "Filial": "São Paulo",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-24",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-24",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-02-24",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-24",
+        "Filial": "Curitiba",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-25",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-25",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-25",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-25",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-25",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-26",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-26",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-26",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-26",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-26",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-27",
+        "Filial": "São Paulo",
+        "Nota Média": 4.5
+    },
+    {
+        "Data": "2024-02-27",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.3
+    },
+    {
+        "Data": "2024-02-27",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.8
+    },
+    {
+        "Data": "2024-02-27",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-27",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-28",
+        "Filial": "São Paulo",
+        "Nota Média": 4.4
+    },
+    {
+        "Data": "2024-02-28",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-28",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-28",
+        "Filial": "Porto Alegre",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-28",
+        "Filial": "Curitiba",
+        "Nota Média": 4.1
+    },
+    {
+        "Data": "2024-02-29",
+        "Filial": "São Paulo",
+        "Nota Média": 4.6
+    },
+    {
+        "Data": "2024-02-29",
+        "Filial": "Rio de Janeiro",
+        "Nota Média": 4.0
+    },
+    {
+        "Data": "2024-02-29",
+        "Filial": "Belo Horizonte",
+        "Nota Média": 3.7
+    },
+    {
+        "Data": "2024-02-29",
+        "Filial": "Porto Alegre",
+        "Nota Média": 3.9
+    },
+    {
+        "Data": "2024-02-29",
+        "Filial": "Curitiba",
+        "Nota Média": 4.3
+    }
+]
