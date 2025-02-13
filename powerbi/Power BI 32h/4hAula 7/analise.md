@@ -25,16 +25,6 @@ Os alunos devem trabalhar com um conjunto de dados que inclua:
 
 ---
 
-### 🏆 **Desafio proposto**  
-Com base nesses dados, os alunos devem criar um **dashboard analítico** que ajude a responder:  
-
-1. **Qual filial tem o melhor e o pior desempenho em vendas?**  
-2. **Qual o impacto dos custos sobre a rentabilidade de cada filial?**  
-3. **Há uma relação entre satisfação do cliente e o volume de vendas?**  
-4. **Qual filial deveria receber investimento em marketing e qual poderia ser fechada?**  
-
----
-
 ### 🔧 **Passos para resolver o exercício**  
 
 1️⃣ **Importar e tratar os dados**  
@@ -60,8 +50,4 @@ Os alunos devem apresentar suas conclusões e decidir:
 - Qual filial **deve reduzir custos**?  
 - Qual filial **não é rentável e pode ser fechada**?  
 
----
-
-### 🎤 **Apresentação final**  
-No final da atividade, cada grupo deve apresentar sua análise e defender sua decisão, explicando quais indicadores usaram para embasar a escolha.  
 
