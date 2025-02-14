@@ -33,10 +33,11 @@ Os alunos devem trabalhar com um conjunto de dados que inclua:
 - Verificar se os dados precisam de limpeza.  
 
 2️⃣ **Criar as medidas no DAX**  
-- **Receita Total:** `SUM(Vendas[Receita gerada])`  
-- **Lucro:** `SUM(Vendas[Receita gerada]) - SUM(Custos[Total de Custos])`  
-- **Média de Satisfação:** `AVERAGE(Satisfação[Nota])`  
-- **Margem de Lucro (%):** `(Lucro / Receita Total) * 100`  
+- **Receita Total=** `SUM(Vendas[Receita])`
+- **TOTAL CUSTO =** `SUM(custos[Custo Fixo Mensal]) + SUM(custos[Custo Variável])`
+- **Lucro=** `SUM(Vendas[Receita gerada]) - SUM(Custos[Total de Custos])`  
+- **Média de Satisfação=** `AVERAGE(Satisfacao[Nota Média])`  
+- **Margem de Lucro (%)=** `([Lucro] / [Receita Total]) * 100`  
 
 3️⃣ **Construir visualizações**  
 - **Gráfico de colunas** comparando Receita, Lucro e Custos por filial.  
