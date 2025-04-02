@@ -1,4 +1,4 @@
-dia,mes,ano,estacao,feriado,dia_semana,dia_útil,clima,temp,sensacao_temp,humidade,velocidade_vento,alugueis
+dia,mes,ano,estacao,feriado,dia_semana,dia_Ãºtil,clima,temp,sensacao_temp,humidade,velocidade_vento,alugueis
 1,1,2011,1,0,6,0,2,0.344167,0.363625,0.805833,0.160446,331
 2,1,2011,1,0,0,0,2,0.363478,0.353739,0.696087,0.248539,131
 3,1,2011,1,0,1,1,1,0.196364,0.189405,0.437273,0.248309,120
