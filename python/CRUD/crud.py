@@ -47,6 +47,12 @@ def adicionar_contato():
 #    limpar_campos()
     atualizar_treeview()
 
+def limpar_campos():
+    nome_entry.delete(0, tk.END)
+    data_entry.delete(0, tk.END)
+    whatsapp_entry.delete(0, tk.END)
+    linkedin_entry.delete(0, tk.END)
+    github_entry.delete(0, tk.END)
 
 # Configuração inicial
 root = tk.Tk()
