@@ -99,7 +99,7 @@ button_frame.pack(fill=tk.X, pady=(0, 10))
 tk.Button(button_frame, text="Adicionar", width=15, command=adicionar_contato).grid(row=0, column=0, padx=10)
 tk.Button(button_frame, text="Atualizar",width=15, command=None).grid(row=0, column=1, padx=10)
 tk.Button(button_frame, text="Excluir",width=15, command=None).grid(row=0,column=2, padx=10)
-tk.Button(button_frame, text="Limpar",width=15, command=None).grid(row=0,column=3, padx=10)
+tk.Button(button_frame, text="Limpar",width=15, command=limpar_campos).grid(row=0,column=3, padx=10)
 tk.Button(button_frame, text="Localizar",width=15, command=None).grid(row=0,column=4, padx=10)
 
 # Treeview para exibir os contatos
