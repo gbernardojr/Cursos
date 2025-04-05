@@ -54,6 +54,21 @@ def limpar_campos():
     linkedin_entry.delete(0, tk.END)
     github_entry.delete(0, tk.END)
 
+def preencher_campos_selecionados(event):
+    item_selecionado = tree.selection()
+    
+    if item_selecionado:
+        valores = tree.item(item_selecionado)['values']
+        
+        limpar_campos()
+        
+        nome_entry.insert(0, valores[1])
+        data_entry.insert(0, valores[2])
+        whatsapp_entry.insert(0, valores[3])
+        linkedin_entry.insert(0, valores[4])
+        github_entry.insert(0, valores[5])
+
+
 # Configuração inicial
 root = tk.Tk()
 root.title("Sistema de Contatos")
