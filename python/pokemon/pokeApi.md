@@ -1,4 +1,3 @@
-Claro! Aqui está um **guia completo de como utilizar a PokéAPI com Python**, desde os conceitos básicos até exemplos práticos.
 
 ---
 
@@ -132,4 +131,3 @@ get_evolution_chain("charmander")
 
 ---
 
-Se quiser, posso te ajudar a montar um pequeno projeto ou script interativo com base nisso, tipo uma Pokédex de terminal. É só pedir!
