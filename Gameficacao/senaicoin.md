@@ -1,4 +1,4 @@
-**como criar uma rede local de blockchain para sua criptomoeda interna usando o Ganache**. É **100% gratuito**, fácil de configurar e perfeito para testes ou uso controlado dentro da empresa.  
+**Como criar uma rede local de blockchain para sua criptomoeda interna usando o Ganache**. É **100% gratuito**, fácil de configurar e perfeito para testes ou uso controlado dentro da empresa.  
 
 ---
 
