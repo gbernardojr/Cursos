@@ -125,11 +125,8 @@ Você pode adicionar funções como:
 - **Permissões** (só o dono pode mintar novos tokens).  
 - **Congelar carteiras suspeitas**.  
 
-Quer um exemplo de código para isso? Posso ajudar!  
-
 ---
 
 ## **Conclusão**  
 Você criou uma **rede blockchain privada e gratuita** com Ganache, perfeita para testes ou uso interno na empresa. Se precisar evoluir para uma rede mais robusta (como uma **sidechain** ou **mainnet**), podemos explorar outras opções.  
 
-Quer tentar? Qualquer dúvida, é só perguntar! 😊
