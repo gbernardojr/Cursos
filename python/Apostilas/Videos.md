@@ -1,8 +1,14 @@
 ## Videos do youtube sobre Python
 
+### Comunidades
+https://www.youtube.com/@Codifike
+https://www.youtube.com/@focoanalitico
+https://www.youtube.com/@alisonpezzott
+https://www.youtube.com/@codigoquant
+
+
 ### Contabilidade
 https://youtu.be/vB9-YWjaqgQ?feature=shared
-https://www.youtube.com/@focoanalitico
 https://www.youtube.com/watch?v=tRaMqQleWzc&list=PLvJurMzpDLA4-36jCQTC1wAQZMwWo30rx  Power BI
 https://www.youtube.com/watch?v=FFXnJ_In8Qw&list=PL_JAXOV_xr7pxWJ5DdPu7JWE8vepSVKaJ
 
@@ -10,7 +16,8 @@ https://www.youtube.com/watch?v=FFXnJ_In8Qw&list=PL_JAXOV_xr7pxWJ5DdPu7JWE8vepSV
 ### Finanças
 https://www.youtube.com/watch?v=u2rluwdrZP0
 https://www.youtube.com/watch?v=HrGLX7JUVoQ
-https://www.youtube.com/@alisonpezzott
+https://www.youtube.com/watch?v=Y6Hc2uxjg_g
+https://youtu.be/28dG0gyXz80?feature=shared
 
 
 ### Computação paralela ou assíncrona
