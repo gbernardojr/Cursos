@@ -1,3 +1,4 @@
+# pip install streamlit requests pandas geopy
 import streamlit as st
 import requests
 import pandas as pd
