@@ -6,25 +6,6 @@ import os
 # Nome do arquivo JSON
 ARQUIVO_JSON = "livros.json"
 
-def limpar_campos():
-    """Limpa todos os campos de entrada"""
-    entryNomeLivro.delete(0, tk.END)
-    entryNomeAutor.delete(0, tk.END)
-    entryNomeEditora.delete(0, tk.END)
-    entryAnoPublicacao.delete(0, tk.END)
-    entryDataCompra.delete(0, tk.END)
-    entryQtdePaginas.delete(0, tk.END)
-
-def preencher_campos(livro):
-    """Preenche os campos com os dados de um livro"""
-    limpar_campos()
-    entryNomeLivro.insert(0, livro.get("nome", ""))
-    entryNomeAutor.insert(0, livro.get("autor", ""))
-    entryNomeEditora.insert(0, livro.get("editora", ""))
-    entryAnoPublicacao.insert(0, livro.get("ano_publicacao", ""))
-    entryDataCompra.insert(0, livro.get("data_compra", ""))
-    entryQtdePaginas.insert(0, livro.get("paginas", ""))
-
 def carregar_livros():
     """Carrega os livros do arquivo JSON ou retorna lista vazia se não existir"""
     if os.path.exists(ARQUIVO_JSON):
@@ -69,13 +50,8 @@ def Cadastrar():
     # Mostrar mensagem de sucesso
     messagebox.showinfo("Sucesso", "Livro cadastrado com sucesso!")
     
-    # Limpar campos (opcional)
-    entryNomeLivro.delete(0, tk.END)
-    entryNomeAutor.delete(0, tk.END)
-    entryNomeEditora.delete(0, tk.END)
-    entryAnoPublicacao.delete(0, tk.END)
-    entryDataCompra.delete(0, tk.END)
-    entryQtdePaginas.delete(0, tk.END)
+    # Limpar campos
+    limpar_campos()
 
 def Pesquisar():
     """Função para pesquisar livros por nome"""
@@ -101,7 +77,77 @@ def Pesquisar():
     preencher_campos(livro)
     
     messagebox.showinfo("Resultado", f"{len(resultados)} livro(s) encontrado(s). Dados do primeiro exibidos.")
+    
+def Alterar():
+    """Função para alterar um livro existente"""
+    nome_livro = entryNomeLivro.get()
+    if not nome_livro:
+        messagebox.showwarning("Aviso", "Digite o nome do livro para alterar!")
+        return
+    
+    livros = carregar_livros()
+    encontrado = False
+    
+    for i, livro in enumerate(livros):
+        if livro["nome"].lower() == nome_livro.lower():
+            # Atualizar os dados do livro
+            livros[i] = {
+                "nome": entryNomeLivro.get(),
+                "autor": entryNomeAutor.get(),
+                "editora": entryNomeEditora.get(),
+                "ano_publicacao": entryAnoPublicacao.get(),
+                "data_compra": entryDataCompra.get(),
+                "paginas": entryQtdePaginas.get()
+            }
+            encontrado = True
+            break
+    
+    if not encontrado:
+        messagebox.showwarning("Aviso", "Livro não encontrado!")
+        return
+    
+    salvar_livros(livros)
+    messagebox.showinfo("Sucesso", "Livro alterado com sucesso!")
+    limpar_campos()
 
+def Excluir():
+    """Função para apagar um livro"""
+    nome_livro = entryNomeLivro.get()
+    if not nome_livro:
+        messagebox.showwarning("Aviso", "Digite o nome do livro para apagar!")
+        return
+    
+    livros = carregar_livros()
+    livros_restantes = [livro for livro in livros if livro["nome"].lower() != nome_livro.lower()]
+    
+    if len(livros_restantes) == len(livros):
+        messagebox.showwarning("Aviso", "Livro não encontrado!")
+        return
+    
+    confirmacao = messagebox.askyesno("Confirmação", f"Tem certeza que deseja apagar o livro '{nome_livro}'?")
+    if confirmacao:
+        salvar_livros(livros_restantes)
+        messagebox.showinfo("Sucesso", "Livro apagado com sucesso!")
+        limpar_campos()
+
+def limpar_campos():
+    """Limpa todos os campos de entrada"""
+    entryNomeLivro.delete(0, tk.END)
+    entryNomeAutor.delete(0, tk.END)
+    entryNomeEditora.delete(0, tk.END)
+    entryAnoPublicacao.delete(0, tk.END)
+    entryDataCompra.delete(0, tk.END)
+    entryQtdePaginas.delete(0, tk.END)
+
+def preencher_campos(livro):
+    """Preenche os campos com os dados de um livro"""
+    limpar_campos()
+    entryNomeLivro.insert(0, livro.get("nome", ""))
+    entryNomeAutor.insert(0, livro.get("autor", ""))
+    entryNomeEditora.insert(0, livro.get("editora", ""))
+    entryAnoPublicacao.insert(0, livro.get("ano_publicacao", ""))
+    entryDataCompra.insert(0, livro.get("data_compra", ""))
+    entryQtdePaginas.insert(0, livro.get("paginas", ""))
 
 # Criar a janela principal
 janela = tk.Tk()
@@ -148,14 +194,14 @@ entryQtdePaginas.grid(row=5, column=1, padx=5, pady=5)
 buttonCadastrar = tk.Button(janela, text='Cadastrar', width=20, command=Cadastrar)
 buttonCadastrar.grid(row=6, column=0, columnspan=2, pady=10)
 
-# Botões secundários (sem funcionalidade implementada)
-buttonApagar = tk.Button(janela, text='Apagar', width=20)
-buttonApagar.grid(row=7, column=0, padx=5, pady=5)
+# Botões secundários
+buttonExcluir = tk.Button(janela, text='Excluir', width=20, command=Excluir)
+buttonExcluir.grid(row=7, column=0, padx=5, pady=5)
 
-buttonPesquisar = tk.Button(janela, text='Pesquisar', width=20)
+buttonPesquisar = tk.Button(janela, text='Pesquisar', width=20, command=Pesquisar)
 buttonPesquisar.grid(row=7, column=1, padx=5, pady=5)
 
-buttonAlterar = tk.Button(janela, text='Alterar', width=20)
+buttonAlterar = tk.Button(janela, text='Alterar', width=20, command=Alterar)
 buttonAlterar.grid(row=8, column=0, columnspan=2, pady=5)
 
 janela.mainloop()
