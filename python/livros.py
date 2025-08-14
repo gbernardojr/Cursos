@@ -6,6 +6,25 @@ import os
 # Nome do arquivo JSON
 ARQUIVO_JSON = "livros.json"
 
+def limpar_campos():
+    """Limpa todos os campos de entrada"""
+    entryNomeLivro.delete(0, tk.END)
+    entryNomeAutor.delete(0, tk.END)
+    entryNomeEditora.delete(0, tk.END)
+    entryAnoPublicacao.delete(0, tk.END)
+    entryDataCompra.delete(0, tk.END)
+    entryQtdePaginas.delete(0, tk.END)
+
+def preencher_campos(livro):
+    """Preenche os campos com os dados de um livro"""
+    limpar_campos()
+    entryNomeLivro.insert(0, livro.get("nome", ""))
+    entryNomeAutor.insert(0, livro.get("autor", ""))
+    entryNomeEditora.insert(0, livro.get("editora", ""))
+    entryAnoPublicacao.insert(0, livro.get("ano_publicacao", ""))
+    entryDataCompra.insert(0, livro.get("data_compra", ""))
+    entryQtdePaginas.insert(0, livro.get("paginas", ""))
+
 def carregar_livros():
     """Carrega os livros do arquivo JSON ou retorna lista vazia se não existir"""
     if os.path.exists(ARQUIVO_JSON):
@@ -57,6 +76,32 @@ def Cadastrar():
     entryAnoPublicacao.delete(0, tk.END)
     entryDataCompra.delete(0, tk.END)
     entryQtdePaginas.delete(0, tk.END)
+
+def Pesquisar():
+    """Função para pesquisar livros por nome"""
+    nome_livro = entryNomeLivro.get()
+    if not nome_livro:
+        messagebox.showwarning("Aviso", "Digite o nome do livro para pesquisar!")
+        return
+    
+    livros = carregar_livros()
+    
+    # Loop tradicional em vez de list comprehension
+    resultados = []
+    for livro in livros:
+        if nome_livro.lower() in livro["nome"].lower():
+            resultados.append(livro)
+    
+    if not resultados:
+        messagebox.showinfo("Resultado", "Nenhum livro encontrado com este nome!")
+        return
+    
+    # Mostrar o primeiro resultado encontrado
+    livro = resultados[0]
+    preencher_campos(livro)
+    
+    messagebox.showinfo("Resultado", f"{len(resultados)} livro(s) encontrado(s). Dados do primeiro exibidos.")
+
 
 # Criar a janela principal
 janela = tk.Tk()
