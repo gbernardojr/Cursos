@@ -1,5 +1,5 @@
 
-# Curso Preparatório para Certificação AI-900 da Microsoft
+#  Implantação de Serviços de Inteligência Artifical em Nuvem - Microsoft AI900
 
 A certificação **Microsoft Azure AI Fundamentals (AI-900)** é o ponto de partida ideal para quem deseja iniciar sua jornada no universo da **Inteligência Artificial (IA)** e dos serviços cognitivos disponíveis no **Microsoft Azure**.
 Este curso foi cuidadosamente elaborado para **candidatos iniciantes**, sem necessidade de experiência prévia em ciência de dados ou programação, oferecendo uma base sólida dos principais conceitos de IA e suas aplicações práticas.
