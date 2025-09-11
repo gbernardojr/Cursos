@@ -14,7 +14,8 @@ Este material foi desenvolvido para ajudar você a se preparar de forma eficient
 
 🔗 **Links de Apoio (inserir posteriormente):**
 
-* Playlist no **YouTube** com videoaulas: \https://www.youtube.com/live/eFYsbsTHyHI?feature=shared
+* Playlist no **YouTube** com videoaulas:
+      https://www.youtube.com/live/eFYsbsTHyHI
 * Documentação e trilhas de aprendizado no **Microsoft Learn**: \[Adicionar link aqui]
 
 ---
