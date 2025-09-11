@@ -36,3 +36,7 @@ Para enriquecer seu aprendizado e reforçar os conceitos estudados em aula, reco
 * [Guia de estudo para o Exame AI-102](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-102)
 * [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/pt-br/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#two-ways-to-prepare)
 
+* **Materiais Extras**
+* [Fundação Bradesco](https://www.ev.org.br/cursos/AI900Azure) - AI-900 - Fundamentos de IA no Azure
+  
+
