@@ -43,5 +43,6 @@ Para enriquecer seu aprendizado e reforçar os conceitos estudados em aula, reco
 * [Anon](https://www.adorocinema.com/filmes/filme-244753/)
 * [Ex_Machina: Instinto Artificial](https://www.adorocinema.com/filmes/filme-219931/)
 * [Ameaça Invisível - Stealth](https://www.adorocinema.com/filmes/filme-53880/)
+* [Explorando o Desconhecido: Robôs Assassinos](https://youtu.be/3jpM8UYmHvI?feature=shared)
   
 
