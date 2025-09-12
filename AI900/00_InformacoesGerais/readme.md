@@ -39,7 +39,7 @@ Para enriquecer seu aprendizado e reforçar os conceitos estudados em aula, reco
 * **Materiais Extras**
 * [Fundação Bradesco](https://www.ev.org.br/cursos/AI900Azure) - AI-900 - Fundamentos de IA no Azure
 
-* **Filmes sobre Inteligência Artificial
+* **Filmes sobre Inteligência Artificial**
 * [Anon](https://www.adorocinema.com/filmes/filme-244753/)
 * [Ex_Machina: Instinto Artificial](https://www.adorocinema.com/filmes/filme-219931/)
 * [Ameaça Invisível - Stealth](https://www.adorocinema.com/filmes/filme-53880/)
