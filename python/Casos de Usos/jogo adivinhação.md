@@ -1,37 +1,106 @@
-### Caso de Uso: Jogo de Adivinhar Número
+# Caso de Uso: Jogo de Adivinhação - "Mais ou Menos"
 
-#### **Nome**: Jogo de Adivinhar Número
+## Descrição do Sistema:
+Desenvolver um jogo em console onde o programa sorteia um número aleatório e o jogador deve adivinhá-lo dentro de 10 tentativas.
 
-#### **Ator Principal**: Jogador
+## Requisitos Funcionais:
 
-#### **Descrição**:  
-O jogo sorteia um número aleatório dentro de um intervalo pré-definido e o jogador deve tentar adivinhar o número. Após cada tentativa, o sistema fornece feedback, informando se o palpite foi maior ou menor que o número correto. Quando o jogador acerta, o sistema o parabeniza e oferece a opção de jogar novamente ou encerrar o jogo.
+**RF01 - Inicialização do Jogo**
+- O sistema deve gerar um número aleatório entre 1 e 100
+- O sistema deve informar ao usuário que o jogo começou
 
-#### **Pré-condições**:
-- O sistema deve estar funcionando corretamente.
-- O número desconhecido deve ser sorteado aleatoriamente no início do jogo.
+**RF02 - Entrada do Usuário**
+- O sistema deve aceitar apenas números inteiros como entrada
+- O sistema deve validar se a entrada é um número válido
 
-#### **Fluxo Principal**:
+**RF03 - Feedback das Tentativas**
+- Se o palpite for **MAIOR** que o número secreto → mostrar "MENOS"
+- Se o palpite for **MENOR** que o número secreto → mostrar "MAIS"
+- Se o palpite for **IGUAL** ao número secreto → encerrar jogo
 
-1. O jogo sorteia um número aleatório dentro de um intervalo pré-definido (por exemplo, de 1 a 100).
-2. O sistema solicita ao jogador que insira um número como palpite.
-3. O jogador insere um número e confirma o palpite.
-4. O sistema compara o palpite com o número sorteado:
-   - **Se o número digitado for maior que o número sorteado**, o sistema exibe a mensagem: "Você chutou um número muito alto!".
-   - **Se o número digitado for menor que o número sorteado**, o sistema exibe a mensagem: "Você chutou um número muito baixo!".
-   - **Se o jogador acertar o número**, o sistema exibe a mensagem: "Parabéns, você acertou!".
-5. Após o acerto, o sistema pergunta se o jogador deseja jogar novamente:
-   - **Se o jogador escolher jogar novamente**, o sistema sorteia um novo número e o fluxo retorna ao passo 2.
-   - **Se o jogador optar por não jogar novamente**, o sistema encerra o jogo.
+**RF04 - Controle de Tentativas**
+- O usuário tem exatamente 10 tentativas
+- O sistema deve mostrar o número de tentativas restantes
 
-#### **Fluxo Alternativo**:
+**RF05 - Finalização do Jogo**
+- Se acertar dentro de 10 tentativas → mostrar "GANHOU"
+- Se esgotar as tentativas → mostrar "PERDEU" e revelar o número
 
-- **Erro de entrada**:
-   - Se o jogador inserir um valor que não seja um número válido, o sistema exibe a mensagem: "Entrada inválida! Digite um número válido." e solicita nova tentativa.
+## Regras de Negócio:
 
-#### **Pós-condições**:
-- O sistema deve terminar o jogo corretamente se o jogador optar por não jogar novamente.
+**RN01:** Número secreto deve estar entre 1 e 100
+**RN02:** Cada palpite conta como uma tentativa, mesmo se inválido
+**RN03:** O jogo encerra imediatamente ao acertar o número
+**RN04:** Mensagens devem ser em CAIXA ALTA conforme especificado
 
----
+## Fluxo Esperado:
 
-Esse é um caso de uso simples e direto, com regras claras para a interação entre o sistema e o jogador. Ele pode ser implementado em várias linguagens de programação e adaptado para diferentes interfaces (console, web, gráfico).
+```
+=== JOGO DE ADIVINHAÇÃO ===
+Tente adivinhar o número entre 1 e 100
+Você tem 10 tentativas!
+
+Tentativa 1/10: 50
+MAIS
+
+Tentativa 2/10: 75
+MENOS
+
+Tentativa 3/10: 63
+MAIS
+
+...
+
+Tentativa 6/10: 69
+GANHOU!
+```
+
+**OU**
+
+```
+...
+
+Tentativa 10/10: 45
+PERDEU! O número era 42
+```
+
+## Critérios de Aceitação:
+
+- [ ] Gera número aleatório entre 1-100
+- [ ] Aceita apenas números inteiros
+- [ ] Mostra "MAIS" para palpites menores
+- [ ] Mostra "MENOS" para palpites maiores  
+- [ ] Limita a 10 tentativas
+- [ ] Mostra "GANHOU" ao acertar
+- [ ] Mostra "PERDEU" ao esgotar tentativas
+- [ ] Informa número secreto ao perder
+
+## Template de Código para Implementação:
+
+```python
+import random
+
+
+# Gerar número secreto entre 1 e 100
+numero_secreto = random.randint(1, 100)
+tentativas_maximas = 10
+tentativas = 0
+    
+print("=== JOGO DE ADIVINHAÇÃO ===")
+print("Tente adivinhar o número entre 1 e 100")
+print(f"Você tem {tentativas_maximas} tentativas!\n")
+    
+# TODO: Implementar o loop principal do jogo
+# TODO: Receber input do usuário
+# TODO: Implementar a lógica de "MAIS" e "MENOS"
+# TODO: Controlar as tentativas
+# TODO: Verificar vitória/derrota
+
+
+
+Este caso de uso é perfeito para alunos praticarem:
+- **Loops** (while/for)
+- **Condicionais** (if/elif/else) 
+- **Input/Output**
+- **Lógica de programação**
+- **Validação de entrada**
