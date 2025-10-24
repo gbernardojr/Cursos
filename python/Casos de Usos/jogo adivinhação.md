@@ -96,7 +96,7 @@ print(f"Você tem {tentativas_maximas} tentativas!\n")
 # TODO: Controlar as tentativas
 # TODO: Verificar vitória/derrota
 
-
+```
 
 Este caso de uso é perfeito para alunos praticarem:
 - **Loops** (while/for)
