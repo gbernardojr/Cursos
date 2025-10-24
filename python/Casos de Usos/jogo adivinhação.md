@@ -104,3 +104,42 @@ Este caso de uso é perfeito para alunos praticarem:
 - **Input/Output**
 - **Lógica de programação**
 - **Validação de entrada**
+
+
+## EXERCÍCIO RESOLVIDO:
+
+```python
+import random
+
+while True:
+    print('Jogo da Adivinhação')
+    print('Tente adivinha um número entre 1 e 100')
+    print('Você tem 10 tentativas.')
+    print('')
+    
+    numerosecreto = random.randint(1,100)
+
+    ganhou = False
+    for tentativa in range(10):
+        palpite = int(input('Dê um palpite: '))
+        print(f'Tentativa {tentativa+1}/10')
+        if palpite > numerosecreto:
+            print('Menos')
+        elif palpite < numerosecreto:
+            print('Mais')
+        else:
+            ganhou = True
+            break
+
+    if ganhou:
+        print('GANHOU!!!')    
+    else:
+        print('PERDEU!!!')
+    
+    sair = input('Jogar novamente? S/N');
+    if sair =='S':
+        break
+
+
+
+
