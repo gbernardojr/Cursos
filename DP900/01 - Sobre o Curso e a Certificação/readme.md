@@ -32,4 +32,11 @@ A **certificação DP-900: Microsoft Azure Data Fundamentals** é uma certifica�
 *   **Idioma:** Disponível em português
 *   **Local de aplicação:** Online (via Pearson VUE) ou em centros autorizados
 *   **Preço:** Pode variar por região (consulte o site oficial da Microsoft)
+*   [Microsoft Certified: Conceitos básicos de dados do Azure](https://learn.microsoft.com/pt-br/credentials/certifications/azure-data-fundamentals/?authuser=0&practice-assessment-type=certification)
 
+### 📌 Links:
+
+* [Microsoft Datacenters](https://datacenters.microsoft.com/globe/explore/)
+* [Dias de Treinamento Virtual da Microsoft](https://www.microsoft.com/pt-br/events/category/microsoft-virtual-training-days?azureevent=Microsoft+Azure+Virtual+Training+Day%3A+Data+Fundamentals&language=Portugu%C3%AAs&language=English&authuser=0&filters=primary-language%3Aportuguese-brazil&scenario=mvtd)
+
+  
