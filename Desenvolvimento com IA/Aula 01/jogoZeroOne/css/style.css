@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board{
+    width: 80%;
+    height: 500px;
+    border-bottom: 1px solid rgb(35, 160, 35);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB,#E0F6FF);
+}
+
+.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    animation: pipe-animation 2s infinite linear; 
+}
+
+@keyframes pipe-animation {
+    from{
+        right: -40px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+.sonic{
+    position: absolute;
+    bottom: 0px;
+    width: 80px;
+    left: 400px;
+    
+}
+
+.jumpsonic{
+    animation: jump 500ms ease-out;
+}
+
+@keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+    
+}
