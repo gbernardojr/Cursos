@@ -39,6 +39,8 @@ Esta tabela serve como gabarito para o instrutor ou como material de estudo para
 | **Sistemas de Trading de Alta Frequência** | **Baseado em Política** | Algoritmos que decidem o momento exato de comprar ou vender ações para maximizar o lucro diário da carteira. |
 | **Treinamento de Jogadores Não-Jogáveis (NPCs)** | **Deep Reinforcement** | Bots em jogos complexos (como Dota 2 ou StarCraft) que aprendem estratégias de combate enfrentando a si mesmos milhões de vezes. |
 
+<img width="2048" height="1593" alt="image" src="https://github.com/user-attachments/assets/6272351c-778b-4ee8-9440-cc78cbe67d4a" />
+
 ---
 
 ### 💡 Sugestão Didática para o Instrutor (Desafio de Aula)
