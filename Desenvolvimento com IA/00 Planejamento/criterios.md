@@ -52,4 +52,3 @@ Para que sua avaliação seja transparente (conforme as orientações do documen
 
 De acordo com o documento **"Modelo Plano de Ensino preenchido"**, para que o aluno obtenha 100% de aproveitamento (Nota 100), ele deve atingir todos os critérios críticos e todos os desejáveis. Se ele falhar em um critério crítico, ele deve retornar para recuperação imediata naquela capacidade.
 
-**Deseja que eu gere o modelo de "Folha de Feedback Individual" para os alunos com base nesses critérios?**
