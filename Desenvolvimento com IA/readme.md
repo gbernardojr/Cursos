@@ -1,4 +1,4 @@
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/27d9ae96-89eb-42d9-b47a-9102cc218407" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/27d9ae96-89eb-42d9-b47a-9102cc218407" />
 
 # Aperfeiçoamento Profissional: Inteligências Artificiais Generativas Aplicada a Programação – ChatGPT
 
