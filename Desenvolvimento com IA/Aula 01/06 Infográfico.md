@@ -47,4 +47,4 @@ Após entender o contexto, a IA calcula qual é o **próximo token mais prováve
 
 ---
 
-**Com este infográfico, fechamos o Ciclo de Fundamentos da Aula 01!**
+
