@@ -79,6 +79,8 @@ Neste modelo de **Machine Learning Preditivo**, adicionamos a influência das es
 
 A IA busca encontrar o equilíbrio entre esses fatores através da seguinte fórmula:
 
+$$Y = A + (B * x1) + (C * x2) + (D * x3) + (F * x4) + G$$
+
 **Dicionário da Equação:**
 
 * **Y**: Resultado final (Quantidade de aluguéis previstos).
@@ -101,6 +103,9 @@ Imagine que a IA treinou com dados históricos e atribuiu um peso alto para o **
 * **F = 80** (Peso extra por ser Verão)
 
 **Cenário de amanhã:** Sábado (**x2=1**), Férias (**x3=1**), Verão (**x4=1**) e temperatura de **30°C** (**x1=30**).
+
+$$Y = 20 + (5 * 30) + (40 * 1) + (100 * 1) + (80 * 1)$$
+$$Y = 20 + 150 + 40 + 100 + 80$$
 
 **Resultado da Predição: 390 Aluguéis.**
 
