@@ -52,6 +52,9 @@ Não há dados prévios. A IA aprende através da **interação com um ambiente*
 
 > **Exemplo Prático:** Um robô aprendendo a andar. Cada passo à frente é um ponto positivo; cair no chão é um ponto negativo. Após milhões de tentativas, ele "descobre" a marcha perfeita.
 
+> <img width="2048" height="1593" alt="image" src="https://github.com/user-attachments/assets/7c6147e4-035e-49f5-9760-22c82a9e25cd" />
+
+
 ---
 
 ## 📊 Quadro Comparativo para Slide
