@@ -36,6 +36,9 @@ Este tipo de IA aprende por **tentativa e erro**, recebendo "recompensas" ou "pu
 * **Exemplo na Programação:** IAs treinadas para encontrar vulnerabilidades de segurança (Pentest) tentando invadir um sistema repetidamente.
 * **No cotidiano:** IAs que jogam xadrez ou videogames em nível profissional, e braços robóticos industriais que aprendem a encaixar peças.
 
+<img width="2048" height="1593" alt="image" src="https://github.com/user-attachments/assets/ef830007-8ee5-4f92-9234-f632b58a4eb1" />
+
+
 ---
 
 ## 5. Sistemas Especialistas (IA Simbólica)
