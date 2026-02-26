@@ -10,4 +10,3 @@
 
 # Curso
 * [2º ProEducador - Administração de Sistemas ServiceNow - CSA](https://senaisp.notion.site/2-ProEducador-Administra-o-de-Sistemas-ServiceNow-CSA-2bc9251860df81d483e7db98c830d4de)
-* 
