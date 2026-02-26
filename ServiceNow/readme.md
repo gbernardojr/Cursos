@@ -8,3 +8,6 @@
 * [Aplicação do Zero ServiceNow](https://youtu.be/e-VwEt1nayE?si=aQEHcMtCDas2K_Tj)
 * [ServiceNow Incident Management](https://www.youtube.com/watch?v=5zN2VTg9wUQ&list=PL4jgQJG6eMDO4S8D8Fm9wkQNTODfotIuq)
 
+# Curso
+* [2º ProEducador - Administração de Sistemas ServiceNow - CSA](https://senaisp.notion.site/2-ProEducador-Administra-o-de-Sistemas-ServiceNow-CSA-2bc9251860df81d483e7db98c830d4de)
+* 
