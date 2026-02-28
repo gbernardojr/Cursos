@@ -46,12 +46,12 @@ Desenvolva uma aplicação desktop em **Python** chamada **"Agenda Médica Simpl
    - Nome do arquivo sugerido: agenda_medica.db (na mesma pasta do executável ou em subpasta data/)
    - Tabela principal: agendamentos
      colunas:
-       id               INTEGER PRIMARY KEY AUTOINCREMENT
-       data             DATE           NOT NULL           (formato 'YYYY-MM-DD')
-       horario          TIME           NOT NULL           (formato 'HH:MM')
-       nome_paciente    TEXT           NOT NULL
-       data_nascimento  DATE           NOT NULL           ('YYYY-MM-DD')
-       convenio         TEXT           NULL
+       id                 INTEGER PRIMARY KEY AUTOINCREMENT
+       data               DATE            NOT NULL            (formato 'YYYY-MM-DD')
+       horario            TIME            NOT NULL            (formato 'HH:MM')
+       nome_paciente      TEXT            NOT NULL
+       data_nascimento    DATE            NOT NULL            ('YYYY-MM-DD')
+       convenio           TEXT            NULL
 
 6. Requisitos técnicos adicionais:
    - Interface gráfica: use **Tkinter** (padrão) ou **CustomTkinter** (visual moderno) ou **PyQt6** / **PySide6** (se optar por visual mais profissional)
