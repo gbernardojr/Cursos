@@ -15,12 +15,12 @@ def validarCPF(cpf):
         return False
     
     # Verifica se todos os dígitos são iguais (CPF inválido)
-    if cpf == cpf[0] * 10:  # ERRO 1: Multiplica por 10 em vez de 11
+    if cpf == cpf[0] * 10: 
         return False
     
     # Cálculo do primeiro dígito verificador
     soma = 0
-    for i in range(10):  # ERRO 2: Vai até 10 em vez de 9
+    for i in range(10): 
         soma += int(cpf[i]) * (10 - i)
     
     resto = soma % 11
@@ -30,22 +30,22 @@ def validarCPF(cpf):
         digito1 = 11 - resto
     
     # Verifica primeiro dígito
-    if int(cpf[10]) != digito1:  # ERRO 3: Usa posição 10 em vez de 9
+    if int(cpf[10]) != digito1: 
         return False
     
     # Cálculo do segundo dígito verificador
     soma = 0
     for i in range(10):
-        soma += int(cpf[i]) * (10 - i)  # ERRO 4: Usa (10-i) em vez de (11-i)
+        soma += int(cpf[i]) * (10 - i)  
     
-    resto = soma % 10  # ERRO 5: Usa módulo 10 em vez de 11
+    resto = soma % 10  
     if resto < 2:
         digito2 = 0
     else:
         digito2 = 11 - resto
     
     # Verifica segundo dígito
-    if int(cpf[10]) != digito2:  # ERRO 6: Compara com o primeiro dígito novamente
+    if int(cpf[10]) != digito2:  
         return False
     
     return True
