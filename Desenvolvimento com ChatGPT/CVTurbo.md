@@ -1,11 +1,3 @@
-**Aqui está o prompt SUPER DETALHADO e pronto para copiar/colar** em qualquer IA de desenvolvimento (Claude 3.5, GPT-4o, Cursor, etc.).  
-
-Ele foi escrito em português (para você) mas com toda a parte técnica em inglês padrão de desenvolvimento, para que a IA gere código limpo, moderno e profissional.
-
----
-
-**PROMPT PARA IA DE DESENVOLVIMENTO:**
-
 Você é um desenvolvedor Full-Stack Python sênior especializado em aplicações rápidas com Streamlit e IA Generativa.
 
 Crie **do zero** um webapp completo chamado **CV Turbo** – Analisador e Otimizador de Currículos, utilizando a API do Google Gemini (gemini-1.5-flash ou gemini-1.5-pro).
@@ -92,12 +84,3 @@ Gere o código completo, pronto para rodar com `streamlit run app.py`.
 No final do arquivo, adicione um pequeno README dentro de um st.expander explicando como usar e como obter a chave da Gemini API.
 
 Comece agora gerando o código inteiro.
-
----
-
-**Como usar este prompt:**
-1. Copie tudo acima.
-2. Cole em Claude 3.5 Sonnet, GPT-4o ou Cursor.
-3. A IA vai te entregar o arquivo `app.py` completo + `requirements.txt`.
-
-Quer que eu ajuste alguma coisa antes de você usar (ex: tornar mais simples para aula de 4h, adicionar autenticação, mudar para FastAPI + React, etc.)? É só falar! 🚀
